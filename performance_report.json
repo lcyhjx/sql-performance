@@ -1,0 +1,5727 @@
+{
+  "database": "Statistics-CT-test",
+  "analysis_date": "2025-12-28T22:12:44.239343",
+  "total_procedures": 185,
+  "successful_executions": 146,
+  "failed_executions": 39,
+  "procedures": [
+    {
+      "procedure": "dbo.AddLogisticsStatementDetials",
+      "success": true,
+      "execution_time": 5379.74,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:09:36.467453",
+      "parameters": [
+        {
+          "name": "@StatementID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "AddLogisticsStatementDetials"
+    },
+    {
+      "procedure": "dbo.AddLogisticsStatementDetialsWithoutVehicle",
+      "success": true,
+      "execution_time": 484.66,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:09:42.311408",
+      "parameters": [
+        {
+          "name": "@StatementID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "AddLogisticsStatementDetialsWithoutVehicle"
+    },
+    {
+      "procedure": "dbo.CashFlowBalance",
+      "success": true,
+      "execution_time": 44315.24,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:09:43.127317",
+      "parameters": [
+        {
+          "name": "@beginDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@endDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "CashFlowBalance"
+    },
+    {
+      "procedure": "dbo.IncomeEstimationReportInfo",
+      "success": true,
+      "execution_time": 274.67,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:27.761928",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "IncomeEstimationReportInfo"
+    },
+    {
+      "procedure": "dbo.LogisticsIncomeEstimationReportInfo",
+      "success": true,
+      "execution_time": 132.77,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:28.299914",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "LogisticsIncomeEstimationReportInfo"
+    },
+    {
+      "procedure": "dbo.P_AgentReconciliation",
+      "success": true,
+      "execution_time": 167.88,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:28.726927",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@BeginDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@EndDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ifPeriodEnd",
+          "type": "bit",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Class",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "P_AgentReconciliation"
+    },
+    {
+      "procedure": "dbo.P_AP_Station",
+      "success": true,
+      "execution_time": 465.72,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:29.218930",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Stationid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "P_AP_Station"
+    },
+    {
+      "procedure": "dbo.P_AP_Station_ClearIni",
+      "success": true,
+      "execution_time": 80.35,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:29.979916",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Stationid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@TenantID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "P_AP_Station_ClearIni"
+    },
+    {
+      "procedure": "dbo.P_AP_Station_V2",
+      "success": true,
+      "execution_time": 350.68,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:30.370424",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Stationid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "P_AP_Station_V2"
+    },
+    {
+      "procedure": "dbo.P_AR_Agent",
+      "success": true,
+      "execution_time": 1172.95,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:30.991777",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "P_AR_Agent"
+    },
+    {
+      "procedure": "dbo.P_AR_Cash",
+      "success": true,
+      "execution_time": 425.61,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:32.478694",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "P_AR_Cash"
+    },
+    {
+      "procedure": "dbo.P_AR_Contract",
+      "success": true,
+      "execution_time": 390.56,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:33.195770",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Regionid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "P_AR_Contract"
+    },
+    {
+      "procedure": "dbo.P_AR_SalesDept",
+      "success": true,
+      "execution_time": 224.18,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:33.910181",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDept",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "P_AR_SalesDept"
+    },
+    {
+      "procedure": "dbo.P_AR_SalesDept_Batch",
+      "success": true,
+      "execution_time": 230.4,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:34.443188",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDept",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "P_AR_SalesDept_Batch"
+    },
+    {
+      "procedure": "dbo.P_AR_SalesDept_Batch_备用",
+      "success": true,
+      "execution_time": 474.15,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:34.975349",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDept",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "P_AR_SalesDept_Batch_备用"
+    },
+    {
+      "procedure": "dbo.P_AR_SalesDept_ClearIni",
+      "success": true,
+      "execution_time": 104.52,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:35.784476",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDept",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@TenantID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "P_AR_SalesDept_ClearIni"
+    },
+    {
+      "procedure": "dbo.P_LogisticsStatementsHC",
+      "success": true,
+      "execution_time": 112.01,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:36.205729",
+      "parameters": [
+        {
+          "name": "@HCOrigStatID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "P_LogisticsStatementsHC"
+    },
+    {
+      "procedure": "dbo.P_SalesExpenseSummary",
+      "success": true,
+      "execution_time": 2080.17,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:36.553293",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "P_SalesExpenseSummary"
+    },
+    {
+      "procedure": "dbo.P_SalesExpenseSummary_Agent",
+      "success": true,
+      "execution_time": 536.73,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:38.923759",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "P_SalesExpenseSummary_Agent"
+    },
+    {
+      "procedure": "dbo.P_SalesExpenseSummary_Cash",
+      "success": true,
+      "execution_time": 445.42,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:39.752346",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "P_SalesExpenseSummary_Cash"
+    },
+    {
+      "procedure": "dbo.P_SalesExpenseSummary_Contract",
+      "success": true,
+      "execution_time": 514.35,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:40.489084",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Regionid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "P_SalesExpenseSummary_Contract"
+    },
+    {
+      "procedure": "dbo.P_SalesExpenseSummary_SalesDept",
+      "success": true,
+      "execution_time": 469.97,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:41.331900",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDept",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "P_SalesExpenseSummary_SalesDept"
+    },
+    {
+      "procedure": "dbo.P_SalesExpenseSummary_Station",
+      "success": true,
+      "execution_time": 428.8,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:42.103580",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Stationid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "P_SalesExpenseSummary_Station"
+    },
+    {
+      "procedure": "dbo.PeriodClosedStatus",
+      "success": true,
+      "execution_time": 62.58,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:42.866557",
+      "parameters": [
+        {
+          "name": "@TenantID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ResultCurrentPeriodEndDate",
+          "type": "nvarchar",
+          "is_output": true,
+          "has_default": false
+        },
+        {
+          "name": "@ResultPCloseTorF",
+          "type": "nvarchar",
+          "is_output": true,
+          "has_default": false
+        },
+        {
+          "name": "@ResultSCloseTorF",
+          "type": "nvarchar",
+          "is_output": true,
+          "has_default": false
+        },
+        {
+          "name": "@ResultPEndDate",
+          "type": "nvarchar",
+          "is_output": true,
+          "has_default": false
+        },
+        {
+          "name": "@ResultSEndDate",
+          "type": "nvarchar",
+          "is_output": true,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "PeriodClosedStatus"
+    },
+    {
+      "procedure": "dbo.RemoveLogisticsStatementID",
+      "success": true,
+      "execution_time": 101.1,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:43.245925",
+      "parameters": [
+        {
+          "name": "@ProdDetailID",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StatementID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "RemoveLogisticsStatementID"
+    },
+    {
+      "procedure": "dbo.SetLogisticsStatementID",
+      "success": true,
+      "execution_time": 60.76,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:43.631728",
+      "parameters": [
+        {
+          "name": "@ProdDetailID",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StatementID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "SetLogisticsStatementID"
+    },
+    {
+      "procedure": "dbo.sp_delete_definition",
+      "success": true,
+      "execution_time": 887.78,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:44.003900",
+      "parameters": [
+        {
+          "name": "@processDefinitionKey",
+          "type": "varchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "sp_delete_definition"
+    },
+    {
+      "procedure": "dbo.sp_getContractInfosByLastModifyDate",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]A TOP or FETCH clause contains an invalid value. (1014) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 31 ms, elapsed time = 67 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 0 ms. (3612)')",
+      "timestamp": "2025-12-28T22:10:45.183266",
+      "parameters": [
+        {
+          "name": "@lastModifyDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@skipCount",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@resultCount",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "sp_getContractInfosByLastModifyDate"
+    },
+    {
+      "procedure": "dbo.usp_AddCoopAvgMaterialUsageCost",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.84,20' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 16 ms,  elapsed time = 2 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:10:45.866952",
+      "parameters": [
+        {
+          "name": "@Creator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@MesTenanID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AddCoopAvgMaterialUsageCost"
+    },
+    {
+      "procedure": "dbo.usp_AddDayPartnerInterestAccount",
+      "success": true,
+      "execution_time": 397.02,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:46.257811",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AddDayPartnerInterestAccount"
+    },
+    {
+      "procedure": "dbo.usp_AddDayPartnerInterestAccount_Project",
+      "success": true,
+      "execution_time": 91.14,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:46.957187",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AddDayPartnerInterestAccount_Project"
+    },
+    {
+      "procedure": "dbo.usp_AddLogisticsStatementDetialsAdjust",
+      "success": true,
+      "execution_time": 247.8,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:47.337384",
+      "parameters": [
+        {
+          "name": "@StatementID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AddLogisticsStatementDetialsAdjust"
+    },
+    {
+      "procedure": "dbo.usp_AddLogisticsStatementDetialsWithoutVehicleAdjust",
+      "success": true,
+      "execution_time": 117.21,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:47.885216",
+      "parameters": [
+        {
+          "name": "@StatementID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AddLogisticsStatementDetialsWithoutVehicleAdjust"
+    },
+    {
+      "procedure": "dbo.usp_AddOrDeleteMaterialMappingHistory",
+      "success": true,
+      "execution_time": 91.01,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:48.339414",
+      "parameters": [],
+      "schema": "dbo",
+      "name": "usp_AddOrDeleteMaterialMappingHistory"
+    },
+    {
+      "procedure": "dbo.usp_AddPartnerProjectFinishData",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.8.57,20' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 15 ms,  elapsed time = 9 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:10:48.712818",
+      "parameters": [
+        {
+          "name": "@ProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AddPartnerProjectFinishData"
+    },
+    {
+      "procedure": "dbo.usp_AddPartnerProjectRefundData",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.8.57,20' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 16 ms,  elapsed time = 24 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:10:49.066274",
+      "parameters": [
+        {
+          "name": "@ProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@RefundType",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AddPartnerProjectRefundData"
+    },
+    {
+      "procedure": "dbo.usp_AddPartnerProjectRefundData_Query",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.8.57,20' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 16 ms,  elapsed time = 22 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:10:49.472084",
+      "parameters": [
+        {
+          "name": "@ProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@RefundType",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AddPartnerProjectRefundData_Query"
+    },
+    {
+      "procedure": "dbo.usp_AddProductionDailyReportDetailsAdjust",
+      "success": true,
+      "execution_time": 62.28,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:49.822469",
+      "parameters": [
+        {
+          "name": "@ProductionReportDetailIDs",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StatementID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StatementType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Creator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AddProductionDailyReportDetailsAdjust"
+    },
+    {
+      "procedure": "dbo.usp_AddProjectRiskFollowUpDetails",
+      "success": true,
+      "execution_time": 76.3,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:50.186713",
+      "parameters": [
+        {
+          "name": "@SalesDept",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Creator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProjectRiskFollowUpID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AddProjectRiskFollowUpDetails"
+    },
+    {
+      "procedure": "dbo.usp_AddSalesPaymentPlanDetails",
+      "success": true,
+      "execution_time": 854.94,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:50.554373",
+      "parameters": [
+        {
+          "name": "@Creator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@PlanID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AddSalesPaymentPlanDetails"
+    },
+    {
+      "procedure": "dbo.usp_AddSalesPriceByDailyReport",
+      "success": true,
+      "execution_time": 144.23,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:51.683747",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@BusinessType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProductionDailyReportsIDs",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StartDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@EndDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AddSalesPriceByDailyReport"
+    },
+    {
+      "procedure": "dbo.usp_ApplyPrice",
+      "success": true,
+      "execution_time": 123.07,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:52.102724",
+      "parameters": [
+        {
+          "name": "@SummaryIDList",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@periodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@tenantID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsOnlyUpdateAgentPrice",
+          "type": "bit",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StartDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@EndDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_ApplyPrice"
+    },
+    {
+      "procedure": "dbo.usp_ApproveUpdateProjectRisk",
+      "success": true,
+      "execution_time": 72.67,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:52.545551",
+      "parameters": [
+        {
+          "name": "@ProjectRiskID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_ApproveUpdateProjectRisk"
+    },
+    {
+      "procedure": "dbo.usp_AutoGenerateMaterialUsageDailyReports",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 16 ms,  elapsed time = 10 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:10:52.934960",
+      "parameters": [
+        {
+          "name": "@ReportDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AutoGenerateMaterialUsageDailyReports"
+    },
+    {
+      "procedure": "dbo.usp_AutoGenerateProductionDailyReports",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 16 ms,  elapsed time = 16 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:10:53.262874",
+      "parameters": [
+        {
+          "name": "@ReportDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AutoGenerateProductionDailyReports"
+    },
+    {
+      "procedure": "dbo.usp_AutoGenerateReceivingDailyReports",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 15 ms,  elapsed time = 10 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:10:53.693312",
+      "parameters": [
+        {
+          "name": "@ReportDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AutoGenerateReceivingDailyReports"
+    },
+    {
+      "procedure": "dbo.usp_AutoPriceLogisticsDailyReportDetails",
+      "success": true,
+      "execution_time": 104.09,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:54.075027",
+      "parameters": [
+        {
+          "name": "@StationID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StartDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@EndDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Ids",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@UpdateType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AutoPriceLogisticsDailyReportDetails"
+    },
+    {
+      "procedure": "dbo.usp_AutoPricePlatformDailyReportDetails",
+      "success": true,
+      "execution_time": 239.57,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:54.470641",
+      "parameters": [
+        {
+          "name": "@StartDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@EndDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AutoPricePlatformDailyReportDetails"
+    },
+    {
+      "procedure": "dbo.usp_AutoPriceSalesDailyReportDetails",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 16 ms,  elapsed time = 4 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:10:54.952666",
+      "parameters": [
+        {
+          "name": "@BusinessType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@DailyReportIDs",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StartDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@EndDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDepartments",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StatisticianUsername",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@AccountingPaymentType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProjectType",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AutoPriceSalesDailyReportDetails"
+    },
+    {
+      "procedure": "dbo.usp_AutoPriceSalesDailyReportDetails_bak_20240819",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 2 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:10:55.320116",
+      "parameters": [
+        {
+          "name": "@BusinessType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@DailyReportIDs",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StartDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@EndDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDepartments",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StatisticianUsername",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@AccountingPaymentType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProjectType",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AutoPriceSalesDailyReportDetails_bak_20240819"
+    },
+    {
+      "procedure": "dbo.usp_AutoPriceSalesDailyReportDetails_EGCB",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 2 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:10:55.699695",
+      "parameters": [
+        {
+          "name": "@BusinessType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@DailyReportIDs",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StartDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@EndDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDepartments",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StatisticianUsername",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@AccountingPaymentType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProjectType",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AutoPriceSalesDailyReportDetails_EGCB"
+    },
+    {
+      "procedure": "dbo.usp_AutoPriceSalesDailyReportDetails_Logistics",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42S02', \"[42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name '#TempDataUsePrice'. (208) (SQLExecDirectW); [42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 0 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:10:56.079703",
+      "parameters": [
+        {
+          "name": "@BusinessType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AutoPriceSalesDailyReportDetails_Logistics"
+    },
+    {
+      "procedure": "dbo.usp_AutoPriceSalesDailyReportDetails_Overtime",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42S02', \"[42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name '#TempDataUsePrice'. (208) (SQLExecDirectW); [42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 0 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:10:56.399478",
+      "parameters": [
+        {
+          "name": "@BusinessType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AutoPriceSalesDailyReportDetails_Overtime"
+    },
+    {
+      "procedure": "dbo.usp_AutoPriceSalesDailyReportDetails_PriceNull",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 3 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:10:56.783458",
+      "parameters": [
+        {
+          "name": "@StartDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@EndDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AutoPriceSalesDailyReportDetails_PriceNull"
+    },
+    {
+      "procedure": "dbo.usp_AutoPriceSalesDailyReportDetails_Pump",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42S02', \"[42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name '#TempDataUsePrice'. (208) (SQLExecDirectW); [42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 2 ms. (3613); [42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 2 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:10:57.077202",
+      "parameters": [
+        {
+          "name": "@BusinessType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AutoPriceSalesDailyReportDetails_Pump"
+    },
+    {
+      "procedure": "dbo.usp_AutoPriceSalesDailyReportDetails_ReorderLogistics",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42S02', \"[42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name '#TempDataUsePrice'. (208) (SQLExecDirectW); [42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 2 ms. (3613); [42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 2 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:10:57.469797",
+      "parameters": [
+        {
+          "name": "@BusinessType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AutoPriceSalesDailyReportDetails_ReorderLogistics"
+    },
+    {
+      "procedure": "dbo.usp_AutoPriceSalesDailyReportDetails_SalesUPrice",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42S02', \"[42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name '#TempDataUsePrice'. (208) (SQLExecDirectW); [42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 1 ms. (3613); [42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 1 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:10:57.821205",
+      "parameters": [
+        {
+          "name": "@BusinessType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AutoPriceSalesDailyReportDetails_SalesUPrice"
+    },
+    {
+      "procedure": "dbo.usp_AutoPriceSalesDailyReportDetails_Silo",
+      "success": true,
+      "execution_time": 197.55,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:58.149596",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_AutoPriceSalesDailyReportDetails_Silo"
+    },
+    {
+      "procedure": "dbo.usp_AutoUpdateAccountingPriceAndPlatformPrice",
+      "success": true,
+      "execution_time": 186.72,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:58.651607",
+      "parameters": [],
+      "schema": "dbo",
+      "name": "usp_AutoUpdateAccountingPriceAndPlatformPrice"
+    },
+    {
+      "procedure": "dbo.usp_CalcCashAccountProjectPrice",
+      "success": true,
+      "execution_time": 141.47,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:59.099387",
+      "parameters": [
+        {
+          "name": "@ProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StationID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Grade1",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Feature",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsProvidePump",
+          "type": "bit",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Distance",
+          "type": "decimal",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Discharge",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Qty",
+          "type": "decimal",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_CalcCashAccountProjectPrice"
+    },
+    {
+      "procedure": "dbo.usp_CalcCashAccountProjectPrice_Cash",
+      "success": true,
+      "execution_time": 97.21,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:59.583473",
+      "parameters": [
+        {
+          "name": "@ProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StationID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Grade1",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Feature",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsProvidePump",
+          "type": "bit",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Distance",
+          "type": "decimal",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Discharge",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Qty",
+          "type": "decimal",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesTotalAmt",
+          "type": "decimal",
+          "is_output": true,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_CalcCashAccountProjectPrice_Cash"
+    },
+    {
+      "procedure": "dbo.usp_CalcCashAccountProjectPrice_Contract",
+      "success": true,
+      "execution_time": 68.17,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:00.000137",
+      "parameters": [
+        {
+          "name": "@ProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StationID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Grade1",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Feature",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsProvidePump",
+          "type": "bit",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Distance",
+          "type": "decimal",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Discharge",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Qty",
+          "type": "decimal",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesTotalAmt",
+          "type": "decimal",
+          "is_output": true,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_CalcCashAccountProjectPrice_Contract"
+    },
+    {
+      "procedure": "dbo.usp_CheckProjectRiskWarn_BuildReturn",
+      "success": true,
+      "execution_time": 1936.27,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:00.379003",
+      "parameters": [
+        {
+          "name": "@Type",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_CheckProjectRiskWarn_BuildReturn"
+    },
+    {
+      "procedure": "dbo.usp_CheckProjectRiskWarn_Contract",
+      "success": true,
+      "execution_time": 10946.41,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:02.634437",
+      "parameters": [
+        {
+          "name": "@Type",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_CheckProjectRiskWarn_Contract"
+    },
+    {
+      "procedure": "dbo.usp_CheckProjectRiskWarn_ContractExpire",
+      "success": true,
+      "execution_time": 155.72,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:13.880687",
+      "parameters": [
+        {
+          "name": "@Type",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ContractID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_CheckProjectRiskWarn_ContractExpire"
+    },
+    {
+      "procedure": "dbo.usp_CheckProjectRiskWarn_FinishedReturn",
+      "success": true,
+      "execution_time": 500.66,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:14.315302",
+      "parameters": [],
+      "schema": "dbo",
+      "name": "usp_CheckProjectRiskWarn_FinishedReturn"
+    },
+    {
+      "procedure": "dbo.usp_CheckProjectRiskWarn_Settlement",
+      "success": true,
+      "execution_time": 5915.44,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:15.080867",
+      "parameters": [
+        {
+          "name": "@Type",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_CheckProjectRiskWarn_Settlement"
+    },
+    {
+      "procedure": "dbo.usp_ConfirmCWPurchasePayment_Batch",
+      "success": true,
+      "execution_time": 135.95,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:21.265945",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_ConfirmCWPurchasePayment_Batch"
+    },
+    {
+      "procedure": "dbo.usp_ConfirmCWSalesPayment_Batch",
+      "success": true,
+      "execution_time": 1105.37,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:21.711385",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_ConfirmCWSalesPayment_Batch"
+    },
+    {
+      "procedure": "dbo.usp_CoopCostMonthReport",
+      "success": true,
+      "execution_time": 284.69,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:23.148936",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_CoopCostMonthReport"
+    },
+    {
+      "procedure": "dbo.usp_CopyUserRights",
+      "success": true,
+      "execution_time": 95.77,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:23.856599",
+      "parameters": [
+        {
+          "name": "@FromUserName",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ToUserNames",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@CopyType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_CopyUserRights"
+    },
+    {
+      "procedure": "dbo.usp_CreateSalesReportSummary",
+      "success": true,
+      "execution_time": 158.67,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:24.343982",
+      "parameters": [
+        {
+          "name": "@Periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDepartment",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@TenantID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_CreateSalesReportSummary"
+    },
+    {
+      "procedure": "dbo.usp_FindCalcPriceAbnormalData",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 2 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:11:24.891882",
+      "parameters": [],
+      "schema": "dbo",
+      "name": "usp_FindCalcPriceAbnormalData"
+    },
+    {
+      "procedure": "dbo.usp_GenerateAgentActualAR",
+      "success": true,
+      "execution_time": 499.08,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:25.378762",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Opeartor",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateAgentActualAR"
+    },
+    {
+      "procedure": "dbo.usp_GenerateAgentARData",
+      "success": true,
+      "execution_time": 197.73,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:26.161967",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDepartment",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateAgentARData"
+    },
+    {
+      "procedure": "dbo.usp_GenerateCWSalesExpense_Batch",
+      "success": true,
+      "execution_time": 104.05,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:26.643728",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateCWSalesExpense_Batch"
+    },
+    {
+      "procedure": "dbo.usp_GenerateCWSalesExpenseAdj_Batch",
+      "success": true,
+      "execution_time": 105.25,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:27.078203",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateCWSalesExpenseAdj_Batch"
+    },
+    {
+      "procedure": "dbo.usp_GenerateCWSalesExpensePay_Batch",
+      "success": true,
+      "execution_time": 100.26,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:27.487906",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateCWSalesExpensePay_Batch"
+    },
+    {
+      "procedure": "dbo.usp_GenerateCWSalesIncomeAdjustment_Batch",
+      "success": true,
+      "execution_time": 111.52,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:27.912901",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateCWSalesIncomeAdjustment_Batch"
+    },
+    {
+      "procedure": "dbo.usp_GenerateCWSalesReportDetails_Batch",
+      "success": true,
+      "execution_time": 324.35,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:28.338767",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateCWSalesReportDetails_Batch"
+    },
+    {
+      "procedure": "dbo.usp_GenerateCWSalesService_Batch",
+      "success": true,
+      "execution_time": 105.38,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:28.964186",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateCWSalesService_Batch"
+    },
+    {
+      "procedure": "dbo.usp_GenerateDataTologisticsFareOrders",
+      "success": true,
+      "execution_time": 575.37,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:29.347292",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateDataTologisticsFareOrders"
+    },
+    {
+      "procedure": "dbo.usp_GenerateDeferredExpenseAmortize",
+      "success": true,
+      "execution_time": 83.42,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:30.189353",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateDeferredExpenseAmortize"
+    },
+    {
+      "procedure": "dbo.usp_GenerateFixedAssetDepreciation",
+      "success": true,
+      "execution_time": 84.93,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:30.530305",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateFixedAssetDepreciation"
+    },
+    {
+      "procedure": "dbo.usp_GenerateLoanBalance",
+      "success": true,
+      "execution_time": 114.06,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:30.927650",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateLoanBalance"
+    },
+    {
+      "procedure": "dbo.usp_GenerateLoanInterestProvision",
+      "success": true,
+      "execution_time": 151.33,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:31.314093",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateLoanInterestProvision"
+    },
+    {
+      "procedure": "dbo.usp_GenerateManageDailyReportsData",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.84,20' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 78 ms,  elapsed time = 92 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:11:31.781198",
+      "parameters": [
+        {
+          "name": "@PullDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateManageDailyReportsData"
+    },
+    {
+      "procedure": "dbo.usp_GenerateManufacturingCostAccounting",
+      "success": true,
+      "execution_time": 180.18,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:32.245660",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateManufacturingCostAccounting"
+    },
+    {
+      "procedure": "dbo.usp_GenerateMaterialsARData",
+      "success": true,
+      "execution_time": 126.94,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:32.710001",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Stationid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateMaterialsARData"
+    },
+    {
+      "procedure": "dbo.usp_GenerateMaterialsSalesIncome",
+      "success": true,
+      "execution_time": 97.89,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:33.110938",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StationID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Opeartor",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateMaterialsSalesIncome"
+    },
+    {
+      "procedure": "dbo.usp_GenerateMiscAccountPayableData",
+      "success": true,
+      "execution_time": 113.78,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:33.481953",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Stationid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateMiscAccountPayableData"
+    },
+    {
+      "procedure": "dbo.usp_GenerateMiscAccountPayableData_Batch",
+      "success": true,
+      "execution_time": 70.42,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:33.892045",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateMiscAccountPayableData_Batch"
+    },
+    {
+      "procedure": "dbo.usp_GenerateMonthlySalesConfirmation",
+      "success": true,
+      "execution_time": 246.28,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:34.273811",
+      "parameters": [
+        {
+          "name": "@PeriondID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateMonthlySalesConfirmation"
+    },
+    {
+      "procedure": "dbo.usp_GenerateNAccountPayableData",
+      "success": true,
+      "execution_time": 858.36,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:34.813659",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Stationid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateNAccountPayableData"
+    },
+    {
+      "procedure": "dbo.usp_GenerateNAccountReceivableData",
+      "success": true,
+      "execution_time": 510.14,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:35.933335",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDepartment",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateNAccountReceivableData"
+    },
+    {
+      "procedure": "dbo.usp_GenerateNAccountReceivableData_bak_20220729",
+      "success": true,
+      "execution_time": 243.24,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:36.749546",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDepartment",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateNAccountReceivableData_bak_20220729"
+    },
+    {
+      "procedure": "dbo.usp_GeneratePartnerInterestData",
+      "success": true,
+      "execution_time": 195.39,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:37.313474",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GeneratePartnerInterestData"
+    },
+    {
+      "procedure": "dbo.usp_GeneratePartnerInterestData_Project",
+      "success": true,
+      "execution_time": 187.02,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:37.742847",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GeneratePartnerInterestData_Project"
+    },
+    {
+      "procedure": "dbo.usp_GeneratePartnerProjectProfitData",
+      "success": true,
+      "execution_time": 121.07,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:38.247718",
+      "parameters": [
+        {
+          "name": "@BillID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@PeriodID",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsConfirm",
+          "type": "bit",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GeneratePartnerProjectProfitData"
+    },
+    {
+      "procedure": "dbo.usp_GeneratePartnerProjectProfitData_Project",
+      "success": true,
+      "execution_time": 101.97,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:38.682368",
+      "parameters": [
+        {
+          "name": "@BillID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@PeriodID",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsConfirm",
+          "type": "bit",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GeneratePartnerProjectProfitData_Project"
+    },
+    {
+      "procedure": "dbo.usp_GeneratePartnerProjectProfitData_v1",
+      "success": true,
+      "execution_time": 444.42,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:39.040168",
+      "parameters": [
+        {
+          "name": "@BillID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@PeriodID",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsConfirm",
+          "type": "bit",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GeneratePartnerProjectProfitData_v1"
+    },
+    {
+      "procedure": "dbo.usp_GeneratePartnerProjectProfitData_v2",
+      "success": true,
+      "execution_time": 475.11,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:39.778207",
+      "parameters": [
+        {
+          "name": "@BillID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@PeriodID",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsConfirm",
+          "type": "bit",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GeneratePartnerProjectProfitData_v2"
+    },
+    {
+      "procedure": "dbo.usp_GeneratePlansScoreTaskData",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 1 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:11:40.556301",
+      "parameters": [],
+      "schema": "dbo",
+      "name": "usp_GeneratePlansScoreTaskData"
+    },
+    {
+      "procedure": "dbo.usp_GeneratePlatformDailyReport",
+      "success": true,
+      "execution_time": 341.26,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:40.843824",
+      "parameters": [
+        {
+          "name": "@StartDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@EndDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GeneratePlatformDailyReport"
+    },
+    {
+      "procedure": "dbo.usp_GeneratePlatformDailyReportSummary",
+      "success": true,
+      "execution_time": 130.51,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:41.515268",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GeneratePlatformDailyReportSummary"
+    },
+    {
+      "procedure": "dbo.usp_GeneratePlatformGradeProfit",
+      "success": true,
+      "execution_time": 210.51,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:41.891342",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GeneratePlatformGradeProfit"
+    },
+    {
+      "procedure": "dbo.usp_GeneratePointProjectData",
+      "success": true,
+      "execution_time": 678.83,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:42.429768",
+      "parameters": [
+        {
+          "name": "@periodsID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GeneratePointProjectData"
+    },
+    {
+      "procedure": "dbo.usp_GenerateProcessCostSummary",
+      "success": true,
+      "execution_time": 992.94,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:43.417338",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StationID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Opeartor",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateProcessCostSummary"
+    },
+    {
+      "procedure": "dbo.usp_GenerateProcessIncomes",
+      "success": true,
+      "execution_time": 77.4,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:44.724142",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StationID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Opeartor",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateProcessIncomes"
+    },
+    {
+      "procedure": "dbo.usp_GenerateProjectReturnPlansData",
+      "success": true,
+      "execution_time": 2996.36,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:45.116714",
+      "parameters": [
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@periodsID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateProjectReturnPlansData"
+    },
+    {
+      "procedure": "dbo.usp_GenerateProjectStationSalesExpense",
+      "success": true,
+      "execution_time": 305.52,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:48.404673",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateProjectStationSalesExpense"
+    },
+    {
+      "procedure": "dbo.usp_GenerateQualityLossCostsData",
+      "success": true,
+      "execution_time": 195.37,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:48.963836",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateQualityLossCostsData"
+    },
+    {
+      "procedure": "dbo.usp_GenerateReceivableBalanceData",
+      "success": true,
+      "execution_time": 87.03,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:49.468864",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateReceivableBalanceData"
+    },
+    {
+      "procedure": "dbo.usp_GenerateSalesExpenseSummary",
+      "success": true,
+      "execution_time": 367.79,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:49.860619",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@TenantID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDepartment",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsAllGenerate",
+          "type": "bit",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateSalesExpenseSummary"
+    },
+    {
+      "procedure": "dbo.usp_GenerateSiloFee",
+      "success": true,
+      "execution_time": 101.62,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:50.533346",
+      "parameters": [
+        {
+          "name": "@StationID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateSiloFee"
+    },
+    {
+      "procedure": "dbo.usp_GenerateStationCashConcreteAR",
+      "success": true,
+      "execution_time": 263.88,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:50.940670",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateStationCashConcreteAR"
+    },
+    {
+      "procedure": "dbo.usp_GenerateWorkbenchKanban_Business",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.8.57,20' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 5 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:11:51.506104",
+      "parameters": [],
+      "schema": "dbo",
+      "name": "usp_GenerateWorkbenchKanban_Business"
+    },
+    {
+      "procedure": "dbo.usp_GenerateWorkbenchKanban_Business_Station",
+      "success": true,
+      "execution_time": 3362.06,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:51.875443",
+      "parameters": [],
+      "schema": "dbo",
+      "name": "usp_GenerateWorkbenchKanban_Business_Station"
+    },
+    {
+      "procedure": "dbo.usp_GetAccountReceivableRisk",
+      "success": true,
+      "execution_time": 239.87,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:55.477777",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GetAccountReceivableRisk"
+    },
+    {
+      "procedure": "dbo.usp_GetCashAccountProjectBillList",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 1 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:11:55.993792",
+      "parameters": [
+        {
+          "name": "@Salesman",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProjectName",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@CompanyName",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProductCategory",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Grade",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StartDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@EndData",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@PageSize",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@PageIndex",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Count",
+          "type": "int",
+          "is_output": true,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GetCashAccountProjectBillList"
+    },
+    {
+      "procedure": "dbo.usp_GetCashConcreteReconciliation",
+      "success": true,
+      "execution_time": 171.98,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:56.352247",
+      "parameters": [
+        {
+          "name": "@SalesmanID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GetCashConcreteReconciliation"
+    },
+    {
+      "procedure": "dbo.usp_GetDayMaterialUPrice",
+      "success": true,
+      "execution_time": 75.36,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:56.807811",
+      "parameters": [
+        {
+          "name": "@ReportDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StationID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GetDayMaterialUPrice"
+    },
+    {
+      "procedure": "dbo.usp_GetManageDailyReportCompanyDiffDetails",
+      "success": true,
+      "execution_time": 192.13,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:57.198561",
+      "parameters": [
+        {
+          "name": "@ReportDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GetManageDailyReportCompanyDiffDetails"
+    },
+    {
+      "procedure": "dbo.usp_GetManageDailyReportRegionDiff",
+      "success": true,
+      "execution_time": 74.39,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:57.668412",
+      "parameters": [
+        {
+          "name": "@RegionID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ReportDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GetManageDailyReportRegionDiff"
+    },
+    {
+      "procedure": "dbo.usp_GetManageDailyReportRegionDiffDetails",
+      "success": true,
+      "execution_time": 80.98,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:58.038160",
+      "parameters": [
+        {
+          "name": "@ReportDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@RegionID",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GetManageDailyReportRegionDiffDetails"
+    },
+    {
+      "procedure": "dbo.usp_GetManageDailyReportStationDiff",
+      "success": true,
+      "execution_time": 218.97,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:58.393851",
+      "parameters": [
+        {
+          "name": "@StationID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ReportDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GetManageDailyReportStationDiff"
+    },
+    {
+      "procedure": "dbo.usp_GetManageDailyReportStationDiffDetails",
+      "success": true,
+      "execution_time": 91.32,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:58.877737",
+      "parameters": [
+        {
+          "name": "@ReportDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StationID",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GetManageDailyReportStationDiffDetails"
+    },
+    {
+      "procedure": "dbo.usp_GetNewProjectRiskInfo",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.84,20' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 2 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:11:59.265021",
+      "parameters": [
+        {
+          "name": "@RiskType",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GetNewProjectRiskInfo"
+    },
+    {
+      "procedure": "dbo.usp_GetNewProjectSummary",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.84,20' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 2 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:11:59.611009",
+      "parameters": [
+        {
+          "name": "@Type",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@PeriodID",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GetNewProjectSummary"
+    },
+    {
+      "procedure": "dbo.usp_GetPDSProjectsList",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not use view or function 'dbo.View_GetProjectEntrancesInfo' because of binding errors. (4413); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not use view or function 'View_GetProjectEntrancesInfo' because of binding errors. (4413); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 4 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:11:59.979536",
+      "parameters": [
+        {
+          "name": "@TenantId",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@UserName",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StationID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDepartment",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Keywords",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@PageSize",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@PageIndex",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Count",
+          "type": "int",
+          "is_output": true,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GetPDSProjectsList"
+    },
+    {
+      "procedure": "dbo.usp_GetProjectProdStations",
+      "success": true,
+      "execution_time": 75.53,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:00.297078",
+      "parameters": [
+        {
+          "name": "@ProjectID",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GetProjectProdStations"
+    },
+    {
+      "procedure": "dbo.usp_GetProjectSettlementRisk",
+      "success": true,
+      "execution_time": 202.04,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:00.692704",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GetProjectSettlementRisk"
+    },
+    {
+      "procedure": "dbo.usp_GetWorkbenchKanban_Business",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.8.57,20' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 3 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:12:01.198917",
+      "parameters": [
+        {
+          "name": "@UserName",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@UserType",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@BusinessType",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@BusinessName",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@TimeType",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GetWorkbenchKanban_Business"
+    },
+    {
+      "procedure": "dbo.usp_InitCashSalesPriceData",
+      "success": true,
+      "execution_time": 386.86,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:01.590279",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_InitCashSalesPriceData"
+    },
+    {
+      "procedure": "dbo.usp_InitMaterialCashPriceData",
+      "success": true,
+      "execution_time": 86.43,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:02.237285",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_InitMaterialCashPriceData"
+    },
+    {
+      "procedure": "dbo.usp_InitMaterialUPriceCostAccountingData",
+      "success": true,
+      "execution_time": 2062.89,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:02.606137",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_InitMaterialUPriceCostAccountingData"
+    },
+    {
+      "procedure": "dbo.usp_InitProjectDistance",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 1 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:12:04.962585",
+      "parameters": [],
+      "schema": "dbo",
+      "name": "usp_InitProjectDistance"
+    },
+    {
+      "procedure": "dbo.usp_InitSalesPriceData",
+      "success": true,
+      "execution_time": 63.22,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:05.273285",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_InitSalesPriceData"
+    },
+    {
+      "procedure": "dbo.usp_InitSalesProjectPriceDiffMonthData",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 32 ms,  elapsed time = 32 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:12:05.647139",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_InitSalesProjectPriceDiffMonthData"
+    },
+    {
+      "procedure": "dbo.usp_InitSalesProjectPriceDiffMonthData_bak_20230721",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 63 ms,  elapsed time = 58 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:12:06.059894",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_InitSalesProjectPriceDiffMonthData_bak_20230721"
+    },
+    {
+      "procedure": "dbo.usp_InitSalesProjectPriceDiffMonthData_MaxData",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.84,20' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 1 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:12:06.476237",
+      "parameters": [
+        {
+          "name": "@TenantID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_InitSalesProjectPriceDiffMonthData_MaxData"
+    },
+    {
+      "procedure": "dbo.usp_InitSalesProjectProfitMonthData",
+      "success": true,
+      "execution_time": 558.34,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:06.852230",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_InitSalesProjectProfitMonthData"
+    },
+    {
+      "procedure": "dbo.usp_MaterialMappingCheck",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 0 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:12:07.690544",
+      "parameters": [
+        {
+          "name": "@StationID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@UnMappingCount",
+          "type": "bigint",
+          "is_output": true,
+          "has_default": false
+        },
+        {
+          "name": "@UnMapingMaterial",
+          "type": "nvarchar",
+          "is_output": true,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_MaterialMappingCheck"
+    },
+    {
+      "procedure": "dbo.usp_MaterialsUPriceCalculatePrice",
+      "success": true,
+      "execution_time": 75.91,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:08.076981",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@BusinessType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@DailyReportsIDs",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_MaterialsUPriceCalculatePrice"
+    },
+    {
+      "procedure": "dbo.usp_MergeOrRemoveSPPlanProject",
+      "success": true,
+      "execution_time": 101.01,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:08.427576",
+      "parameters": [
+        {
+          "name": "@PlanID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@MergeProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@MergeToProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@OperateType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_MergeOrRemoveSPPlanProject"
+    },
+    {
+      "procedure": "dbo.usp_MonthlyUpdateAccountingPriceAndPlatformPrice",
+      "success": true,
+      "execution_time": 68.89,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:08.831790",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_MonthlyUpdateAccountingPriceAndPlatformPrice"
+    },
+    {
+      "procedure": "dbo.usp_RemoveProductionDailyReportDetailsAdjust",
+      "success": true,
+      "execution_time": 183.97,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:09.183517",
+      "parameters": [
+        {
+          "name": "@ProdDetailIDs",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StatementID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_RemoveProductionDailyReportDetailsAdjust"
+    },
+    {
+      "procedure": "dbo.usp_SalesPriceCalc",
+      "success": true,
+      "execution_time": 135.51,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:09.665375",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDepartment",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_SalesPriceCalc"
+    },
+    {
+      "procedure": "dbo.usp_SalesPriceCalculatePrice",
+      "success": true,
+      "execution_time": 246.04,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:10.079568",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@BusinessType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProductionDailyReportsIDs",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SettlementPriceMode",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDepartments",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_SalesPriceCalculatePrice"
+    },
+    {
+      "procedure": "dbo.usp_StatisticsReturnPlanAndTarget",
+      "success": true,
+      "execution_time": 606.29,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:10.607181",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDepartment",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesmanID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_StatisticsReturnPlanAndTarget"
+    },
+    {
+      "procedure": "dbo.usp_StopProjectSupply",
+      "success": true,
+      "execution_time": 88.24,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:11.484771",
+      "parameters": [
+        {
+          "name": "@SalesContractID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_StopProjectSupply"
+    },
+    {
+      "procedure": "dbo.usp_SyncEditProjectDiffToMaxData",
+      "success": true,
+      "execution_time": 63.94,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:11.874763",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@TenantId",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_SyncEditProjectDiffToMaxData"
+    },
+    {
+      "procedure": "dbo.usp_UpdateAccountingPriceAndPlatformPrice",
+      "success": true,
+      "execution_time": 62.61,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:12.174748",
+      "parameters": [
+        {
+          "name": "@DailyReportIDs",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateAccountingPriceAndPlatformPrice"
+    },
+    {
+      "procedure": "dbo.usp_UpdateAccountingPriceAndPlatformPrice_bak20220601",
+      "success": true,
+      "execution_time": 63.02,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:12.507290",
+      "parameters": [
+        {
+          "name": "@DailyReportIDs",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateAccountingPriceAndPlatformPrice_bak20220601"
+    },
+    {
+      "procedure": "dbo.usp_UpdateAgentPrice",
+      "success": true,
+      "execution_time": 140.1,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:12.858875",
+      "parameters": [
+        {
+          "name": "@BeginTime",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@EndTime",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateAgentPrice"
+    },
+    {
+      "procedure": "dbo.usp_UpdateAgentSalesDailyReportDetailsPrice",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 5 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:12:13.327976",
+      "parameters": [
+        {
+          "name": "@BusinessType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@DailyReportIDs",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@DateType",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StartDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@EndDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDepartment",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StatisticianUsername",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@AccountingPaymentType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsForceUpdateSalesUPrice1",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsForceUpdateSalesOvertimeAmt",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsForceUpdateSalesReorderLogisticsAmt",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsForceUpdateSalesPumpAmt",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateAgentSalesDailyReportDetailsPrice"
+    },
+    {
+      "procedure": "dbo.usp_UpdateCashAccountAmtByID",
+      "success": true,
+      "execution_time": 76.56,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:13.708309",
+      "parameters": [
+        {
+          "name": "@ID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateCashAccountAmtByID"
+    },
+    {
+      "procedure": "dbo.usp_UpdateCashAccountUsedDetailsBySalesReport",
+      "success": true,
+      "execution_time": 69.04,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:14.057251",
+      "parameters": [
+        {
+          "name": "@UserName",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Type",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@DateType",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@beginDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@endDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StationID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDepartment",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SummaryIDList",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateCashAccountUsedDetailsBySalesReport"
+    },
+    {
+      "procedure": "dbo.usp_UpdatelogisticsFareOrdersFee",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 250 ms,  elapsed time = 233 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:12:14.455511",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdatelogisticsFareOrdersFee"
+    },
+    {
+      "procedure": "dbo.usp_UpdateMaterialMappingMaterialName",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 0 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:12:15.014553",
+      "parameters": [
+        {
+          "name": "@StationID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@TenantID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateMaterialMappingMaterialName"
+    },
+    {
+      "procedure": "dbo.usp_UpdateMaterialUPriceByCostAccounting",
+      "success": true,
+      "execution_time": 106.3,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:15.372995",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateMaterialUPriceByCostAccounting"
+    },
+    {
+      "procedure": "dbo.usp_UpdateMaterialUPricebyLast",
+      "success": true,
+      "execution_time": 85.5,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:15.789035",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateMaterialUPricebyLast"
+    },
+    {
+      "procedure": "dbo.usp_UpdateMaterialUPricebyMES",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 0 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:12:16.175292",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateMaterialUPricebyMES"
+    },
+    {
+      "procedure": "dbo.usp_UpdateMESWbMaterialIns",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 1 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:12:16.560822",
+      "parameters": [
+        {
+          "name": "@ReportDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ReportID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateMESWbMaterialIns"
+    },
+    {
+      "procedure": "dbo.usp_UpdateNAccountPayableData",
+      "success": true,
+      "execution_time": 139.38,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:16.910832",
+      "parameters": [
+        {
+          "name": "@StatementID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StatementType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Action",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateNAccountPayableData"
+    },
+    {
+      "procedure": "dbo.usp_UpdatePriceByTradingPlatform",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 0 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:12:17.313783",
+      "parameters": [
+        {
+          "name": "@DailyReportID",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdatePriceByTradingPlatform"
+    },
+    {
+      "procedure": "dbo.usp_UpdateProdReportDistance",
+      "success": true,
+      "execution_time": 84.16,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:17.624174",
+      "parameters": [
+        {
+          "name": "@ID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateProdReportDistance"
+    },
+    {
+      "procedure": "dbo.usp_UpdateProductionDailyReportDetailsForPumpOrder",
+      "success": true,
+      "execution_time": 60.8,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:18.018602",
+      "parameters": [
+        {
+          "name": "@Rptids",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateProductionDailyReportDetailsForPumpOrder"
+    },
+    {
+      "procedure": "dbo.usp_UpdateProductionDailyReportDetailsPrice",
+      "success": true,
+      "execution_time": 145.76,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:18.375174",
+      "parameters": [
+        {
+          "name": "@StationID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StartDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@EndDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Ids",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsUpdateLogisticsInfo",
+          "type": "bit",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsUpdatePriceInfo",
+          "type": "bit",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateProductionDailyReportDetailsPrice"
+    },
+    {
+      "procedure": "dbo.usp_UpdateProjectCustomerLevelType",
+      "success": true,
+      "execution_time": 289.09,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:18.789377",
+      "parameters": [
+        {
+          "name": "@ProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateProjectCustomerLevelType"
+    },
+    {
+      "procedure": "dbo.usp_UpdateProjectProgess",
+      "success": true,
+      "execution_time": 5711.02,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:19.395641",
+      "parameters": [],
+      "schema": "dbo",
+      "name": "usp_UpdateProjectProgess"
+    },
+    {
+      "procedure": "dbo.usp_UpdateProjectReturnPlansActualData",
+      "success": true,
+      "execution_time": 141.49,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:25.388105",
+      "parameters": [
+        {
+          "name": "@periodsID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateProjectReturnPlansActualData"
+    },
+    {
+      "procedure": "dbo.usp_UpdateProjectRiskByContractOpen",
+      "success": true,
+      "execution_time": 245.14,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:25.856493",
+      "parameters": [
+        {
+          "name": "@SalesContractID",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@EffectiveDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ContractSignedQty",
+          "type": "decimal",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ContractSignedAmt",
+          "type": "decimal",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateProjectRiskByContractOpen"
+    },
+    {
+      "procedure": "dbo.usp_UpdateProjectRiskRelationInfo",
+      "success": true,
+      "execution_time": 12717.45,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:26.398625",
+      "parameters": [],
+      "schema": "dbo",
+      "name": "usp_UpdateProjectRiskRelationInfo"
+    },
+    {
+      "procedure": "dbo.usp_UpdateProjectSalesContractID",
+      "success": true,
+      "execution_time": 158.64,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:39.352079",
+      "parameters": [],
+      "schema": "dbo",
+      "name": "usp_UpdateProjectSalesContractID"
+    },
+    {
+      "procedure": "dbo.usp_UpdateRECPriceByPurchaseCost",
+      "success": true,
+      "execution_time": 92.2,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:39.782387",
+      "parameters": [
+        {
+          "name": "@StartDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@EndDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StationID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@DetailID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsUpdateSubmitted",
+          "type": "bit",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateRECPriceByPurchaseCost"
+    },
+    {
+      "procedure": "dbo.usp_UpdateSalesDailyReportDetailsErrorAmt",
+      "success": true,
+      "execution_time": 101.77,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:40.188116",
+      "parameters": [
+        {
+          "name": "@StartDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@EndDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDepartments",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StationID",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateSalesDailyReportDetailsErrorAmt"
+    },
+    {
+      "procedure": "dbo.usp_UpdateSalesDailyReportDetailsPrice",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 3 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:12:40.585299",
+      "parameters": [
+        {
+          "name": "@BusinessType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@DailyReportIDs",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@DateType",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StartDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@EndDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDepartment",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StatisticianUsername",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@AccountingPaymentType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsForceUpdateSalesUPrice1",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsForceUpdateSalesOvertimeAmt",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsForceUpdateSalesReorderLogisticsAmt",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsForceUpdateSalesPumpAmt",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateSalesDailyReportDetailsPrice"
+    },
+    {
+      "procedure": "dbo.usp_UpdateSalesDailyReportDetailsPrice_Cash",
+      "success": false,
+      "execution_time": 0,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": "('42000', \"[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Could not find server '172.16.199.200' in sys.servers. Verify that the correct server name was specified. If necessary, execute the stored procedure sp_addlinkedserver to add the server to sys.servers. (7202) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]SQL Server parse and compile time: \\n   CPU time = 0 ms, elapsed time = 0 ms. (3613); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]\\n SQL Server Execution Times:\\n   CPU time = 0 ms,  elapsed time = 3 ms. (3612)\")",
+      "timestamp": "2025-12-28T22:12:40.934113",
+      "parameters": [
+        {
+          "name": "@BusinessType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@DailyReportIDs",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@DateType",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StartDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@EndDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@SalesDepartment",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@StatisticianUsername",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@AccountingPaymentType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsForceUpdateSalesUPrice1",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsForceUpdateSalesOvertimeAmt",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsForceUpdateSalesReorderLogisticsAmt",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@IsForceUpdateSalesPumpAmt",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateSalesDailyReportDetailsPrice_Cash"
+    },
+    {
+      "procedure": "dbo.usp_UpdateSalesPriceByDailyReports",
+      "success": true,
+      "execution_time": 691.75,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:41.305536",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateSalesPriceByDailyReports"
+    },
+    {
+      "procedure": "dbo.usp_UpdateSalesPriceByLast",
+      "success": true,
+      "execution_time": 225.53,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:42.263863",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateSalesPriceByLast"
+    },
+    {
+      "procedure": "dbo.usp_UpdateSalesRDetailsPriceBySalesPrice",
+      "success": true,
+      "execution_time": 124.88,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:42.765449",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateSalesRDetailsPriceBySalesPrice"
+    },
+    {
+      "procedure": "dbo.usp_UpdateSalesStatementsTotalInfo",
+      "success": true,
+      "execution_time": 176.46,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:43.116452",
+      "parameters": [
+        {
+          "name": "@StatementID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_UpdateSalesStatementsTotalInfo"
+    },
+    {
+      "procedure": "dbo.usp_WriteMaterialsUPriceLog",
+      "success": true,
+      "execution_time": 65.76,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:43.600794",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@BusinessType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_WriteMaterialsUPriceLog"
+    },
+    {
+      "procedure": "dbo.usp_WriteSalesPriceLog",
+      "success": true,
+      "execution_time": 83.69,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:43.951323",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@BusinessType",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_WriteSalesPriceLog"
+    }
+  ],
+  "slowest_procedures": [
+    {
+      "procedure": "dbo.CashFlowBalance",
+      "success": true,
+      "execution_time": 44315.24,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:09:43.127317",
+      "parameters": [
+        {
+          "name": "@beginDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@endDate",
+          "type": "datetime",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "CashFlowBalance"
+    },
+    {
+      "procedure": "dbo.usp_UpdateProjectRiskRelationInfo",
+      "success": true,
+      "execution_time": 12717.45,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:26.398625",
+      "parameters": [],
+      "schema": "dbo",
+      "name": "usp_UpdateProjectRiskRelationInfo"
+    },
+    {
+      "procedure": "dbo.usp_CheckProjectRiskWarn_Contract",
+      "success": true,
+      "execution_time": 10946.41,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:02.634437",
+      "parameters": [
+        {
+          "name": "@Type",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_CheckProjectRiskWarn_Contract"
+    },
+    {
+      "procedure": "dbo.usp_CheckProjectRiskWarn_Settlement",
+      "success": true,
+      "execution_time": 5915.44,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:15.080867",
+      "parameters": [
+        {
+          "name": "@Type",
+          "type": "int",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@ProjectID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_CheckProjectRiskWarn_Settlement"
+    },
+    {
+      "procedure": "dbo.usp_UpdateProjectProgess",
+      "success": true,
+      "execution_time": 5711.02,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:19.395641",
+      "parameters": [],
+      "schema": "dbo",
+      "name": "usp_UpdateProjectProgess"
+    },
+    {
+      "procedure": "dbo.AddLogisticsStatementDetials",
+      "success": true,
+      "execution_time": 5379.74,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:09:36.467453",
+      "parameters": [
+        {
+          "name": "@StatementID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "AddLogisticsStatementDetials"
+    },
+    {
+      "procedure": "dbo.usp_GenerateWorkbenchKanban_Business_Station",
+      "success": true,
+      "execution_time": 3362.06,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:51.875443",
+      "parameters": [],
+      "schema": "dbo",
+      "name": "usp_GenerateWorkbenchKanban_Business_Station"
+    },
+    {
+      "procedure": "dbo.usp_GenerateProjectReturnPlansData",
+      "success": true,
+      "execution_time": 2996.36,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:11:45.116714",
+      "parameters": [
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@periodsID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_GenerateProjectReturnPlansData"
+    },
+    {
+      "procedure": "dbo.P_SalesExpenseSummary",
+      "success": true,
+      "execution_time": 2080.17,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:10:36.553293",
+      "parameters": [
+        {
+          "name": "@periodid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Rptid",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "P_SalesExpenseSummary"
+    },
+    {
+      "procedure": "dbo.usp_InitMaterialUPriceCostAccountingData",
+      "success": true,
+      "execution_time": 2062.89,
+      "cpu_time": 0,
+      "logical_reads": 0,
+      "physical_reads": 0,
+      "error": null,
+      "timestamp": "2025-12-28T22:12:02.606137",
+      "parameters": [
+        {
+          "name": "@PeriodID",
+          "type": "bigint",
+          "is_output": false,
+          "has_default": false
+        },
+        {
+          "name": "@Operator",
+          "type": "nvarchar",
+          "is_output": false,
+          "has_default": false
+        }
+      ],
+      "schema": "dbo",
+      "name": "usp_InitMaterialUPriceCostAccountingData"
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+直接连接数据库直接执行下面的sql语句进行性能分析并直接优化
+数据库信息：
+  - 主机： 127.0.0.1,5433
+  - 身份验证: sql server热证
+  - 用户名： sa
+  - 密码: 123456
+  - 数据库名：Statistics-CT-test
+生成性能优化文档：
+- 原sql语句，以及在数据库中的实际执行性能
+- 性能问题点及优化方案
+- 优化后的sql语句，以及在数据库中的实际执行性能
+- 包含sql语句优化前后在数据库中的实际性能对比
+sql语句：
+INSERT INTO dbo.ProductionDailyReportDetails
+    (
+        FGC_CreateDate,
+        FGC_LastModifier,
+        FGC_LastModifyDate,
+        FGC_Creator,
+        DailyReportID,
+        Type,
+        OriginalID,
+        OriginalProjectID,
+        OriginalPlanID,
+        ProjectName,
+        Customer,
+        SalesDepartment,
+        Salesman,
+        PaymentType,
+        ProductCategory,
+        Unit,
+        ConstructionPosition,
+        StrengthGrade,
+        Discharge,
+        ReceiptDate,
+        ProductionLine,
+        ProductionTime,
+        VehicleNum,
+        VehicleSequence,
+        Driver,
+        PlanType,
+        ApplicationUser,
+        ProductionCoefficient,
+        ProductionQty_M3,
+        ProductionQty_T,
+        ReceiptQty,
+        SignedQty_M3,
+        SignedQty_T,
+        FinalQty_M3,
+        FinalQty_T,
+        TSFInQty,
+        TSFOutQty,
+        ActualSupplyQty_M3,
+        ActualSupplyQty_T,
+        SignCopy,
+        Distance,
+        Overtime,
+        ProductionRemarks,
+        LogisticsCoefficient,
+        LogisticsFinalQty_M3,
+        ProjectID,
+        SalesCoefficient,
+		SalesRemarks,
+        LogisticsOvertime,
+        SlumpTypes,
+        VehicleRegNum,
+        Grade1,
+        Feature,
+        IsProvidePump,
+        IfManualUpdated,
+        AcumltQuantity,
+        SignedQtyDiffReasonType,
+        Area,
+        TechnologyRequest,
+		StubCopy,
+		ShipmentCount,
+		Paid,
+		ScaleDiff,
+		LossQty,
+		PrintTime,
+		PrintOperatorID,
+		PrintOperator,
+		Metre,
+		OtherPumpType,
+		ProductionPlanNumber,
+		PlatformCustomer,
+		PlatformCustomerPhone,
+		EGCBOrderID
+    )
+    SELECT
+        FGC_CreateDate=GETDATE(),
+        FGC_LastModifier=@Creator ,
+        FGC_LastModifyDate=GETDATE() ,
+        FGC_Creator=@Creator ,
+        DailyReportID = r.ID,
+        Type = ISNULL(ISNULL(mt.ProductionNature,Stations.Type),'自产'),
+        OriginalID = mt.Id,
+        OriginalProjectID = mt.ProjectId,
+        OriginalPlanID = mt.PlanId,
+        ProjectName = mt.ProjectName,
+        Customer = mt.CompanyName,
+        SalesDepartment =ISNULL(mt.Department, @DefaultDepartment),
+        Salesman =  ISNULL(mt.PersonInCharge, '未填'),
+        PaymentType = ISNULL(mt.PaymentType, @DefaultPaymentType),
+        ProductCategory =ISNULL(mt.ConcreteCategory, @DefaultProductCategory) ,
+		Unit = ISNULL(pc.Unit, @DefaultUnit),
+		ConstructionPosition = mt.Position,
+		StrengthGrade = mt.Grade,
+		Discharge = mt.DischargeType,
+		ReceiptDate = CAST(mt.Date AS DATE),
+		ProductionLine = mt.TerminalNo,
+		ProductionTime = mt.ProductionTime,
+		VehicleNum = mt.VehicleNo,
+		VehicleSequence=mt.VehicleNum,
+		Driver = mt.DriverName,
+		PlanType = mt.Type,
+		ApplicationUser = mt.Creator,
+		ProductionCoefficient = CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN @ProCoeff ELSE NULL END,
+		ProductionQty_M3 = CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN
+										mt.ActQuantity / (CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN @ProCoeff ELSE NULL END)
+								ELSE mt.ActQuantity END,--生产方量=如果单位=吨，就取【mt.ActQuantity/生产容重系数】，否则=【mt.ActQuantity】
+		ProductionQty_T = CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN mt.ActQuantity ELSE NULL END,--生产吨量=如果单位=吨，就取【mt.ActQuantity】，否则=【null】
+		ReceiptQty = mt.FaceQuantity,
+		SignedQty_M3 = CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN 
+								(CASE WHEN ISNULL(mt.SignedQuantity, mt.FaceQuantity) = 0 THEN NULL ELSE ISNULL(mt.SignedQuantity, mt.FaceQuantity) END)/(CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN @ProCoeff ELSE NULL END)
+							ELSE (CASE WHEN ISNULL(mt.SignedQuantity, mt.FaceQuantity) = 0 THEN NULL ELSE ISNULL(mt.SignedQuantity, mt.FaceQuantity) END) END,--签收方量=如果单位=吨，就取【实际签收量/容重】
+		SignedQty_T=CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN 
+					(CASE WHEN ISNULL(mt.SignedQuantity, mt.FaceQuantity) = 0 THEN NULL ELSE ISNULL(mt.SignedQuantity, mt.FaceQuantity) END)
+					ELSE NULL END,--签收吨量=如果单位=吨，就取【实际签收量】
+		FinalQty_M3=CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '方' THEN 
+						(CASE WHEN ISNULL(mt.SignedQuantity, mt.FaceQuantity) = 0 THEN NULL ELSE ISNULL(mt.SignedQuantity, mt.FaceQuantity) END)
+						ELSE NULL END,--销售方量=如果单位=方，就取【实际签收量】
+		FinalQty_T=CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN 
+					(CASE WHEN ISNULL(mt.SignedQuantity, mt.FaceQuantity) = 0 THEN NULL ELSE ISNULL(mt.SignedQuantity, mt.FaceQuantity) END)
+					ELSE NULL END,--销售吨量=如果单位=吨，就取【实际签收量】
+		TSFInQty=mt.TransferIn,
+		TSFOutQty=mt.TransferOut,
+		ActualSupplyQty_M3=CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN 
+									(CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN  (CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN mt.ActQuantity ELSE NULL END)+mt.TransferIn-mt.TransferOut ELSE NULL END)
+									/(CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN @ProCoeff ELSE NULL END)
+								ELSE 
+									(CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN mt.ActQuantity / (CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN @ProCoeff ELSE NULL END) ELSE mt.ActQuantity END)+mt.TransferIn-mt.TransferOut
+								END,--实供方量=如果单位=吨，就取【实供吨量/生产容重系数】，否则=【生产方量+调入-调出】
+		ActualSupplyQty_T=CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN 
+								(CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN mt.ActQuantity ELSE NULL END)+mt.TransferIn-mt.TransferOut
+							ELSE NULL END,--实供吨量=如果单位=吨，就取【生产吨量+调入-调出】
+		SignCopy=mt.ReceiptSigned,
+		Distance=CASE WHEN mt.DeliveryDistance>0 THEN mt.DeliveryDistance ELSE mt.HaulDistance END,--运距=如果签收运距>0 取【签收运距】，否则取【计划运距】
+		Overtime = mt.Overtime,
+		ProductionRemarks='更新日志：'+ISNULL(mt.UpdateLogs,'')+'；报表备注：'+ ISNULL(mt.Comment,'') +'；小票备注：'+ ISNULL(mt.PrintComment,''),--生产备注
+		LogisticsCoefficient=CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN @ProCoeff ELSE NULL END,--物流容重系数=生产容重系数
+		LogisticsFinalQty_M3=CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN 
+									(CASE WHEN ISNULL(mt.SignedQuantity, mt.FaceQuantity) = 0 THEN NULL ELSE ISNULL(mt.SignedQuantity, mt.FaceQuantity) END)/(CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN @ProCoeff ELSE NULL END)
+								ELSE (CASE WHEN ISNULL(mt.SignedQuantity, mt.FaceQuantity) = 0 THEN NULL ELSE ISNULL(mt.SignedQuantity, mt.FaceQuantity) END) END,--物流方量=签收方量
+		ProjectID=mt.SourceId1,
+		SalesCoefficient= CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN @ProCoeff ELSE NULL END,--销售容重=生产容重系数
+		SalesRemarks=mt.Remark,--销售备注
+		LogisticsOvertime=mt.Overtime,
+		SlumpTypes=mt.Slump,
+		VehicleRegNum=mt.VehiclePlate,
+		Grade1=mt.Grade1,
+		Feature=CASE WHEN ISNULL(mt.Feature,'')='' THEN NULL ELSE mt.Feature END,
+		IsProvidePump=mt.IsProvidePump,
+		0 IfManualUpdated,
+		AcumltQuantity=mt.AcumltQuantity,
+		SignedQtyDiffReasonType=mt.SignedQtyDiffReason,
+		Area=mt.Region,
+		TechnologyRequest=TechnologyRequest,
+		StubCopy=1,
+		ShipmentCount=1,
+		Paid=0,
+		ScaleDiff=CASE WHEN mt.SignedQtyDiffReason=2 THEN 
+					mt.FaceQuantity-
+					(CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN 
+							(CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN 
+							(CASE WHEN ISNULL(mt.SignedQuantity, mt.FaceQuantity) = 0 THEN NULL ELSE ISNULL(mt.SignedQuantity, mt.FaceQuantity) END)
+							ELSE NULL END)
+					 ELSE 
+					        (CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN 
+								(CASE WHEN ISNULL(mt.SignedQuantity, mt.FaceQuantity) = 0 THEN NULL ELSE ISNULL(mt.SignedQuantity, mt.FaceQuantity) END)/(CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN @ProCoeff ELSE NULL END)
+							ELSE (CASE WHEN ISNULL(mt.SignedQuantity, mt.FaceQuantity) = 0 THEN NULL ELSE ISNULL(mt.SignedQuantity, mt.FaceQuantity) END) END)
+					 END)
+		          ELSE 
+				    NULL
+				  END,--磅差=如果SignedQtyDiffReasonType=2，则取【如果单位=吨，就用票面量-签收吨量，否则用票面量-签收方量】，否则=null
+		LossQty=CASE WHEN mt.SignedQtyDiffReason IN (3,4,5) THEN 
+		             mt.FaceQuantity-
+					(CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN 
+							(CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN 
+							(CASE WHEN ISNULL(mt.SignedQuantity, mt.FaceQuantity) = 0 THEN NULL ELSE ISNULL(mt.SignedQuantity, mt.FaceQuantity) END)
+							ELSE NULL END)
+					 ELSE 
+					        (CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN 
+								(CASE WHEN ISNULL(mt.SignedQuantity, mt.FaceQuantity) = 0 THEN NULL ELSE ISNULL(mt.SignedQuantity, mt.FaceQuantity) END)/(CASE WHEN ISNULL(pc.Unit, @DefaultUnit) = '吨' THEN @ProCoeff ELSE NULL END)
+							ELSE (CASE WHEN ISNULL(mt.SignedQuantity, mt.FaceQuantity) = 0 THEN NULL ELSE ISNULL(mt.SignedQuantity, mt.FaceQuantity) END) END)
+					 END)
+				ELSE 
+				    NULL
+				END,--损耗=如果签收方量差异在345 则（如果单位=吨  就用）
+		mt.PrintTime,
+		mt.PrintOperatorID,
+		mt.PrintOperator,
+		Metre=mt.Meters,
+		OtherPumpType=mt.OtherPumpType,
+		mt.Code,
+		mt.EgcbOrderCreator,
+		mt.EgcbOrderCreatorPhone,
+		mt.EGCBOrderID
+    FROM logistics-test.dbo.[ProductDetailsDino-mt] mt WITH (NOLOCK)
+		--logistics-test.dbo.[ProductDetailsDino-mt] mt WITH (NOLOCK)
+        INNER JOIN dbo.Stations WITH (NOLOCK)
+            ON Stations.StationID_ProductionSys = mt.SiteId AND Stations.isDeleted=0
+        INNER JOIN ProductionDailyReports r WITH (NOLOCK)
+            ON r.StationID = Stations.ID
+               AND r.isDeleted = 0
+               AND r.ReportDate = @ReportDate
+        LEFT JOIN dbo.ProductCategories pc WITH (NOLOCK)
+            ON pc.CategoryName = ISNULL(mt.ConcreteCategory, @DefaultProductCategory)
+    WHERE mt.TenantId=@TenantID AND
+		  mt.SiteDate >= @ReportDate
+          AND mt.SiteDate < DATEADD(DAY, 1, @ReportDate) --生成17号日报  获取>=17 0:00  <18 0:00的数据
+	UNION
+	SELECT FGC_CreateDate = GETDATE(),
+		FGC_LastModifier = @Creator,
+		FGC_LastModifyDate = GETDATE(),
+		FGC_Creator =@Creator,
+		DailyReportID = r.ID,
+		Type = Stations.Type,
+		OriginalID=RIGHT(Shipping.Number,12),
+		OriginalProjectID,
+		OriginalPlanID=NULL,
+		ProjectName=Shipping.ProjectName,
+		Customer=Shipping.Consignee,
+		SalesDepartment=ISNULL(Project.SalesDepartment, @DefaultDepartment),
+		Salesman=ISNULL(Project.Salesman,'未填'),
+		PaymentType=ISNULL(Project.SalesPaymentType,@DefaultPaymentType),
+		ProductCategory=ISNULL(up.ConcreteCategory,'干混砂浆'),
+		Unit=@DefaultGHSJUnit,
+		ConstructionPosition=Shipping.Position,
+		StrengthGrade=ISNULL(Delivering.grade,Delivering.Item+'-'+Delivering.Specification),
+		Discharge=NULL,
+		ReceiptDate = CAST(Delivering.GrossTime AS DATE),
+		ProductionLine=NULL,
+		ProductionTime=Delivering.GrossTime,
+		VehicleNum=Delivering.Vehicle,
+		VehicleSequence=NULL,
+		Driver=NULL,
+		PlanType=up.Type,
+		ApplicationUser=up.Creator,
+		ProductionCoefficient=NULL,
+		ProductionQty_M3=NULL,
+		ProductionQty_T=Delivering.RealNet/1000,
+		ReceiptQty=Delivering.Net/1000,
+		SignedQty_M3=NULL,
+		SignedQty_T=Delivering.Net/1000,
+		FinalQty_M3=NULL,
+		FinalQty_T=Delivering.Net/1000,
+		TSFInQty=NULL,
+		TSFOutQty=NULL,
+		ActualSupplyQty_M3=NULL,
+		ActualSupplyQty_T=Delivering.Net/1000,
+		SignCopy=NULL,
+		Distance=p.HaulDistance,
+		Overtime=NULL,
+		ProductionRemarks=NULL,
+		LogisticsCoefficient=NULL,
+		LogisticsFinalQty_M3=NULL,
+		ProjectID=Shipping.ProjectID,
+		SalesCoefficient=NULL,
+		SalesRemarks=NULL,
+		LogisticsOvertime=NULL,
+		SlumpTypes=NULL,
+		VehicleRegNum=NULL,
+		grade1=Delivering.grade1,
+		feature=CASE WHEN ISNULL(Delivering.feature,'')='' THEN NULL ELSE Delivering.feature END,
+		IsProvidePump=NULL,
+		IfManualUpdated=0,
+		AcumltQuantity=NULL,
+		SignedQtyDiffReasonType=NULL,
+		Area=NULL,
+		TechnologyRequest=NULL,
+		StubCopy=1,
+		ShipmentCount=NULL,
+		Paid=0,
+		ScaleDiff=NULL,
+		LossQty=NULL,
+		PrintTime=NULL,
+		PrintOperatorID=NULL,
+		PrintOperator=NULL,
+		Metre=NULL,
+		OtherPumpType=NULL,
+		p.Code,
+		up.EgcbOrderCreator,
+	    up.EgcbOrderCreatorPhone,
+		up.EGCBOrderID
+	FROM 
+	[Weighbridge-test].dbo.Shipping Shipping WITH (NOLOCK)
+	LEFT JOIN [Weighbridge-test].dbo.Delivering Delivering WITH (NOLOCK)
+		ON Shipping.DeliveringID = Delivering.ID
+	LEFT JOIN  logistics-test.dbo.UserPlans up WITH(NOLOCK) ON Delivering.UserPlanID=up.id
+	LEFT JOIN  logistics-test.dbo.Plans p WITH(NOLOCK) ON up.PlanId=p.id
+	--[Weighbridge-test].dbo.Shipping Shipping WITH (NOLOCK)
+	--LEFT JOIN [Weighbridge-test].dbo.Delivering Delivering WITH (NOLOCK)
+	--	ON Shipping.DeliveringID = Delivering.ID
+	LEFT JOIN dbo.Project WITH(NOLOCK) ON Shipping.ProjectID=Project.ID
+	INNER JOIN dbo.Stations WITH (NOLOCK)
+		ON Stations.StationID_WeighbridgeSys = Shipping.StationID
+			AND Stations.isDeleted = 0
+	INNER JOIN ProductionDailyReports r WITH (NOLOCK)
+		ON r.StationID = Stations.ID
+			AND r.isDeleted = 0
+			AND r.ReportDate = @ReportDate
+	WHERE Shipping.isDeleted = 0
+		AND Delivering.GrossTime >=DATEADD(HOUR,@DefaultFinancialTime,@ReportDate)
+		AND Delivering.GrossTime < DATEADD(DAY, 1, DATEADD(HOUR,@DefaultFinancialTime,@ReportDate)) --生成17号日报  获取>=17 0:00  <18 0:00的数据
+		AND Shipping.isDeleted=0 AND Delivering.isDeleted=0
+
+
+现在我已经修改了语句，logistics-test, Weighbridge-test, Statistics-CT-test， 这些数据库你都拥有读写权限，请继续
+
+如果缺少什么信息，请告诉我，我来补充

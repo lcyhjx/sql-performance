@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(docx)",
+      "Skill(docx:*)",
+      "Bash(pandoc:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(chcp:*)",
+      "Bash(timeout 600 tail:*)",
+      "Bash(cat:*)",
+      "Bash(dir:*)",
+      "Bash(findstr:*)",
+      "Bash(ls:*)",
+      "Bash(timeout 5 tail:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

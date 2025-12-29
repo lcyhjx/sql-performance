@@ -1,0 +1,2205 @@
+<?xml version="1.0" encoding="ascii"?>
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:oel="http://schemas.microsoft.com/office/2019/extlst" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh wp14">
+  <w:body>
+    <w:p w14:paraId="4907E82E" w14:textId="62965112" w:rsidR="00AE547C" w:rsidRPr="00E53515" w:rsidRDefault="00E53515" w:rsidP="00E53515">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="36"/>
+          <w:szCs w:val="36"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="00E53515">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="36"/>
+          <w:szCs w:val="36"/>
+        </w:rPr>
+        <w:t>&#27979;&#35797;&#29615;&#22659;&#36890;&#36807;</w:t>
+      </w:r>
+      <w:proofErr w:type="gramStart"/>
+      <w:r w:rsidRPr="00E53515">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="36"/>
+          <w:szCs w:val="36"/>
+        </w:rPr>
+        <w:t>&#22561;&#22418;&#26426;</w:t>
+      </w:r>
+      <w:proofErr w:type="gramEnd"/>
+      <w:r w:rsidRPr="00E53515">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="36"/>
+          <w:szCs w:val="36"/>
+        </w:rPr>
+        <w:t>&#35775;&#38382;&#35828;&#26126;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3BB11793" w14:textId="13E23BCB" w:rsidR="00E53515" w:rsidRDefault="00E53515"/>
+    <w:p w14:paraId="430589B5" w14:textId="29220530" w:rsidR="00A20EC0" w:rsidRDefault="00A20EC0" w:rsidP="00A20EC0">
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+      </w:pPr>
+      <w:bookmarkStart w:id="0" w:name="_&#24314;&#31435;&#26412;&#22320;&#21040;&#36828;&#31243;&#26381;&#21153;&#22120;&#30340;SSH&#38567;&#36947;"/>
+      <w:bookmarkEnd w:id="0"/>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#24314;&#31435;</w:t>
+      </w:r>
+      <w:proofErr w:type="gramStart"/>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#26412;&#22320;&#21040;</w:t>
+      </w:r>
+      <w:proofErr w:type="gramEnd"/>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#36828;&#31243;&#26381;&#21153;&#22120;&#30340;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>SSH</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#38567;&#36947;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="691CA8F8" w14:textId="6EEE321E" w:rsidR="00E53515" w:rsidRDefault="00E53515">
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#19979;&#38754;&#20197;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>w</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">indows </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>Term</w:t>
+      </w:r>
+      <w:r>
+        <w:t>inal</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#31034;&#20363;&#35828;&#26126;&#24320;&#21551;&#26412;&#22320;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>SSH</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#26381;&#21153;&#65292;&#36890;&#36807;&#27492;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>SSH</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#26381;&#21153;&#35775;&#38382;&#36828;&#31243;&#27979;&#35797;&#26426;&#22120;&#20869;&#32593;&#26381;&#21153;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="62E91C51" w14:textId="506F3A64" w:rsidR="00E53515" w:rsidRDefault="00E53515" w:rsidP="00A20EC0">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#23433;&#35013;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>T</w:t>
+      </w:r>
+      <w:r>
+        <w:t>erminal</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="561FEDC9" w14:textId="70D56F5D" w:rsidR="00A9681F" w:rsidRPr="00A9681F" w:rsidRDefault="00A9681F" w:rsidP="00A9681F">
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#20174;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>M</w:t>
+      </w:r>
+      <w:r>
+        <w:t>icrosoft Store</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#23433;&#35013;&#65292;&#25110;&#20174;</w:t>
+      </w:r>
+      <w:hyperlink r:id="rId6" w:history="1">
+        <w:r w:rsidRPr="00A9681F">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t xml:space="preserve">Terminal </w:t>
+        </w:r>
+        <w:proofErr w:type="spellStart"/>
+        <w:r w:rsidRPr="00A9681F">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>Github</w:t>
+        </w:r>
+        <w:proofErr w:type="spellEnd"/>
+      </w:hyperlink>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#31449;&#28857;&#19979;&#36733;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4A0D0908" w14:textId="23818E53" w:rsidR="00E53515" w:rsidRDefault="00E53515" w:rsidP="00A20EC0">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#21551;&#21160;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>T</w:t>
+      </w:r>
+      <w:r>
+        <w:t>erminal</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#24212;&#29992;&#31243;&#24207;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3C3DC2EB" w14:textId="04AC7941" w:rsidR="00E53515" w:rsidRDefault="00E53515" w:rsidP="00E53515">
+      <w:r>
+        <w:rPr>
+          <w:noProof/>
+        </w:rPr>
+        <w:drawing>
+          <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="12D5C7E8" wp14:editId="46675173">
+            <wp:extent cx="6645910" cy="3737610"/>
+            <wp:effectExtent l="0" t="0" r="2540" b="0"/>
+            <wp:docPr id="1" name="Picture 1"/>
+            <wp:cNvGraphicFramePr>
+              <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/>
+            </wp:cNvGraphicFramePr>
+            <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+              <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                  <pic:nvPicPr>
+                    <pic:cNvPr id="1" name=""/>
+                    <pic:cNvPicPr/>
+                  </pic:nvPicPr>
+                  <pic:blipFill>
+                    <a:blip r:embed="rId7"/>
+                    <a:stretch>
+                      <a:fillRect/>
+                    </a:stretch>
+                  </pic:blipFill>
+                  <pic:spPr>
+                    <a:xfrm>
+                      <a:off x="0" y="0"/>
+                      <a:ext cx="6645910" cy="3737610"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                      <a:avLst/>
+                    </a:prstGeom>
+                  </pic:spPr>
+                </pic:pic>
+              </a:graphicData>
+            </a:graphic>
+          </wp:inline>
+        </w:drawing>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="67B4693C" w14:textId="1DDF2B79" w:rsidR="00E53515" w:rsidRDefault="00E53515" w:rsidP="00A20EC0">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#25171;&#24320;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>S</w:t>
+      </w:r>
+      <w:r>
+        <w:t>ettings</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#37197;&#32622;&#39029;&#65292;&#22312;&#24038;&#36793;&#26639;&#19979;&#37096;&#28857;&#20987;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>Add</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> a new profile</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#65292;&#28982;&#21518;&#28857;&#20987;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>New</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> empty profile</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="154F1C10" w14:textId="30AC5A1F" w:rsidR="00E53515" w:rsidRDefault="00E53515" w:rsidP="00A20EC0">
+      <w:r>
+        <w:rPr>
+          <w:noProof/>
+        </w:rPr>
+        <w:drawing>
+          <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="0F9C7CAE" wp14:editId="3CC4DB86">
+            <wp:extent cx="6645910" cy="3737610"/>
+            <wp:effectExtent l="0" t="0" r="2540" b="0"/>
+            <wp:docPr id="3" name="Picture 3"/>
+            <wp:cNvGraphicFramePr>
+              <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/>
+            </wp:cNvGraphicFramePr>
+            <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+              <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                  <pic:nvPicPr>
+                    <pic:cNvPr id="1" name=""/>
+                    <pic:cNvPicPr/>
+                  </pic:nvPicPr>
+                  <pic:blipFill>
+                    <a:blip r:embed="rId8"/>
+                    <a:stretch>
+                      <a:fillRect/>
+                    </a:stretch>
+                  </pic:blipFill>
+                  <pic:spPr>
+                    <a:xfrm>
+                      <a:off x="0" y="0"/>
+                      <a:ext cx="6645910" cy="3737610"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                      <a:avLst/>
+                    </a:prstGeom>
+                  </pic:spPr>
+                </pic:pic>
+              </a:graphicData>
+            </a:graphic>
+          </wp:inline>
+        </w:drawing>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5F0A2423" w14:textId="4DDA66BA" w:rsidR="00E53515" w:rsidRDefault="00E53515" w:rsidP="00A20EC0">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:lastRenderedPageBreak/>
+        <w:t>&#36755;&#20837;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>P</w:t>
+      </w:r>
+      <w:r>
+        <w:t>rofile</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#21517;&#31216;&#21450;&#21629;&#20196;&#34892;&#21629;&#20196;</w:t>
+      </w:r>
+      <w:r w:rsidR="00E96F7A">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#24182;&#20445;&#23384;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="16894C55" w14:textId="5F0FB138" w:rsidR="00E53515" w:rsidRDefault="00E53515" w:rsidP="00A20EC0">
+      <w:r>
+        <w:rPr>
+          <w:noProof/>
+        </w:rPr>
+        <w:drawing>
+          <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="780EAB66" wp14:editId="4FEE6D7F">
+            <wp:extent cx="6645910" cy="3737610"/>
+            <wp:effectExtent l="0" t="0" r="2540" b="0"/>
+            <wp:docPr id="4" name="Picture 4"/>
+            <wp:cNvGraphicFramePr>
+              <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/>
+            </wp:cNvGraphicFramePr>
+            <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+              <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                  <pic:nvPicPr>
+                    <pic:cNvPr id="1" name=""/>
+                    <pic:cNvPicPr/>
+                  </pic:nvPicPr>
+                  <pic:blipFill>
+                    <a:blip r:embed="rId9"/>
+                    <a:stretch>
+                      <a:fillRect/>
+                    </a:stretch>
+                  </pic:blipFill>
+                  <pic:spPr>
+                    <a:xfrm>
+                      <a:off x="0" y="0"/>
+                      <a:ext cx="6645910" cy="3737610"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                      <a:avLst/>
+                    </a:prstGeom>
+                  </pic:spPr>
+                </pic:pic>
+              </a:graphicData>
+            </a:graphic>
+          </wp:inline>
+        </w:drawing>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="672061E6" w14:textId="77777777" w:rsidR="00E96F7A" w:rsidRDefault="00E53515" w:rsidP="00A20EC0">
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#21629;&#20196;&#34892;&#21629;&#20196;&#65306;</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="00E53515">
+        <w:t>ssh</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="00E53515">
+        <w:t xml:space="preserve"> -N  -L 5433:172.16.230.225:20 bill@psscsibhec-public.bastionhost.aliyuncs.com -p 60022</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2DC7C51F" w14:textId="3A584373" w:rsidR="00E96F7A" w:rsidRDefault="00E53515" w:rsidP="00A20EC0">
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#20854;&#20013;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0CB32ECD" w14:textId="1CD5E1C3" w:rsidR="00E53515" w:rsidRDefault="00E53515" w:rsidP="00A20EC0">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>5</w:t>
+      </w:r>
+      <w:r>
+        <w:t>433</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#26159;</w:t>
+      </w:r>
+      <w:r w:rsidR="00E96F7A">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#26412;&#22320;&#31471;&#21475;&#22320;&#22336;&#65292;&#19981;&#21516;&#25968;&#25454;&#24211;&#26381;&#21153;&#22120;&#23545;&#24212;&#29420;&#31435;&#30340;&#26412;&#22320;</w:t>
+      </w:r>
+      <w:r w:rsidR="00E96F7A">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>IP</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="45075490" w14:textId="5442B8AD" w:rsidR="00E96F7A" w:rsidRDefault="00E96F7A" w:rsidP="00A20EC0">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r w:rsidRPr="00E53515">
+        <w:t>172.16.230.225:20</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#26159;&#36828;&#31243;&#20869;&#32593;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>IP</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#21450;&#23545;&#24212;&#31471;&#21475;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1EB39F97" w14:textId="7220E121" w:rsidR="00E96F7A" w:rsidRDefault="00000000" w:rsidP="00A20EC0">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+      </w:pPr>
+      <w:hyperlink r:id="rId10" w:history="1">
+        <w:r w:rsidR="00E96F7A" w:rsidRPr="00E01601">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>bill@psscsibhec-public.bastionhost.aliyuncs.com</w:t>
+        </w:r>
+      </w:hyperlink>
+      <w:r w:rsidR="00E96F7A">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00E96F7A">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#36825;&#20010;&#26159;&#36828;&#31243;&#22561;&#22418;&#26426;&#22320;&#22336;&#21450;&#30331;&#24405;&#36134;&#21495;&#21517;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7269B149" w14:textId="35000456" w:rsidR="00E96F7A" w:rsidRDefault="00E96F7A" w:rsidP="00A20EC0">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r w:rsidRPr="00E53515">
+        <w:t>-p 60022</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#26159;&#25351;&#23450;&#22561;&#22418;&#26426;&#26381;&#21153;&#31471;&#21475;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="49FE21EA" w14:textId="45ACDE0C" w:rsidR="00E96F7A" w:rsidRDefault="00E96F7A" w:rsidP="00A20EC0">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#30331;&#24405;</w:t>
+      </w:r>
+      <w:proofErr w:type="gramStart"/>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#22561;&#22418;&#26426;</w:t>
+      </w:r>
+      <w:proofErr w:type="gramEnd"/>
+      <w:r w:rsidRPr="00E96F7A">
+        <w:t>psscsibhec-public.bastionhost.aliyuncs.com</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#65292;</w:t>
+      </w:r>
+      <w:r w:rsidR="00A9681F">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#33719;&#21462;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#23545;&#24212;&#25968;&#25454;&#24211;&#26381;&#21153;&#22120;&#30340;&#36816;&#32500;&#20196;&#29260;&#65292;&#24182;&#25335;&#36125;&#21040;&#21098;&#36148;&#26495;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7FB708F1" w14:textId="38A95E35" w:rsidR="00E96F7A" w:rsidRPr="00E96F7A" w:rsidRDefault="00E96F7A" w:rsidP="00A20EC0">
+      <w:r>
+        <w:rPr>
+          <w:noProof/>
+        </w:rPr>
+        <w:drawing>
+          <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="548FDAC3" wp14:editId="2A22F207">
+            <wp:extent cx="6645910" cy="2592070"/>
+            <wp:effectExtent l="0" t="0" r="2540" b="0"/>
+            <wp:docPr id="6" name="Picture 6"/>
+            <wp:cNvGraphicFramePr>
+              <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/>
+            </wp:cNvGraphicFramePr>
+            <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+              <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                  <pic:nvPicPr>
+                    <pic:cNvPr id="1" name=""/>
+                    <pic:cNvPicPr/>
+                  </pic:nvPicPr>
+                  <pic:blipFill>
+                    <a:blip r:embed="rId11"/>
+                    <a:stretch>
+                      <a:fillRect/>
+                    </a:stretch>
+                  </pic:blipFill>
+                  <pic:spPr>
+                    <a:xfrm>
+                      <a:off x="0" y="0"/>
+                      <a:ext cx="6645910" cy="2592070"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                      <a:avLst/>
+                    </a:prstGeom>
+                  </pic:spPr>
+                </pic:pic>
+              </a:graphicData>
+            </a:graphic>
+          </wp:inline>
+        </w:drawing>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7FCA767D" w14:textId="0E436173" w:rsidR="00E53515" w:rsidRDefault="00E96F7A" w:rsidP="00A20EC0">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:lastRenderedPageBreak/>
+        <w:t>&#21551;&#21160;&#25351;&#23450;&#30340;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>P</w:t>
+      </w:r>
+      <w:r>
+        <w:t>rofile</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#20197;&#21551;&#29992;&#35813;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>SSH</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#26381;&#21153;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3721EC57" w14:textId="5D01F165" w:rsidR="00E96F7A" w:rsidRDefault="00E96F7A" w:rsidP="00A20EC0">
+      <w:r>
+        <w:rPr>
+          <w:noProof/>
+        </w:rPr>
+        <w:drawing>
+          <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="72E37D0E" wp14:editId="4ABB4B45">
+            <wp:extent cx="6645910" cy="3737610"/>
+            <wp:effectExtent l="0" t="0" r="2540" b="0"/>
+            <wp:docPr id="5" name="Picture 5"/>
+            <wp:cNvGraphicFramePr>
+              <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/>
+            </wp:cNvGraphicFramePr>
+            <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+              <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                  <pic:nvPicPr>
+                    <pic:cNvPr id="1" name=""/>
+                    <pic:cNvPicPr/>
+                  </pic:nvPicPr>
+                  <pic:blipFill>
+                    <a:blip r:embed="rId12"/>
+                    <a:stretch>
+                      <a:fillRect/>
+                    </a:stretch>
+                  </pic:blipFill>
+                  <pic:spPr>
+                    <a:xfrm>
+                      <a:off x="0" y="0"/>
+                      <a:ext cx="6645910" cy="3737610"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                      <a:avLst/>
+                    </a:prstGeom>
+                  </pic:spPr>
+                </pic:pic>
+              </a:graphicData>
+            </a:graphic>
+          </wp:inline>
+        </w:drawing>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2E968C28" w14:textId="5FFE5141" w:rsidR="00E96F7A" w:rsidRDefault="00E96F7A" w:rsidP="00A20EC0">
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#22312;&#20809;&#26631;&#38378;&#28865;&#30340;&#20301;&#32622;&#28857;&#20987;&#40736;&#26631;&#28982;&#21518;&#25353;&#22238;&#36710;&#38190;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3A800581" w14:textId="5C9F4BEB" w:rsidR="0059267E" w:rsidRDefault="0059267E" w:rsidP="00A20EC0">
+      <w:r>
+        <w:rPr>
+          <w:noProof/>
+        </w:rPr>
+        <w:drawing>
+          <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="185A68B5" wp14:editId="54CD2207">
+            <wp:extent cx="6645910" cy="3737610"/>
+            <wp:effectExtent l="0" t="0" r="2540" b="0"/>
+            <wp:docPr id="7" name="Picture 7"/>
+            <wp:cNvGraphicFramePr>
+              <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/>
+            </wp:cNvGraphicFramePr>
+            <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+              <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                  <pic:nvPicPr>
+                    <pic:cNvPr id="1" name=""/>
+                    <pic:cNvPicPr/>
+                  </pic:nvPicPr>
+                  <pic:blipFill>
+                    <a:blip r:embed="rId13"/>
+                    <a:stretch>
+                      <a:fillRect/>
+                    </a:stretch>
+                  </pic:blipFill>
+                  <pic:spPr>
+                    <a:xfrm>
+                      <a:off x="0" y="0"/>
+                      <a:ext cx="6645910" cy="3737610"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                      <a:avLst/>
+                    </a:prstGeom>
+                  </pic:spPr>
+                </pic:pic>
+              </a:graphicData>
+            </a:graphic>
+          </wp:inline>
+        </w:drawing>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="66306D5B" w14:textId="0D81062C" w:rsidR="0059267E" w:rsidRDefault="0059267E" w:rsidP="00A20EC0">
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#22914;&#26524;&#20196;&#29260;&#27491;&#30830;&#65292;&#20809;&#26631;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#20250;&#31227;&#21040;&#19979;&#19968;&#34892;&#65292;&#27492;&#26102;&#23601;&#21487;&#23581;&#35797;&#36890;&#36807;&#27492;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>SSH</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#26381;&#21153;&#36890;&#36807;&#26412;&#22320;&#31471;&#21475;&#22320;&#22336;&#35775;&#38382;&#36828;&#31243;&#25968;&#25454;&#24211;&#12290;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="29D68D05" w14:textId="260ECBE6" w:rsidR="0059267E" w:rsidRDefault="0059267E" w:rsidP="00A20EC0">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:lastRenderedPageBreak/>
+        <w:t>&#36830;&#25509;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>SSMS</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="20B0EE27" w14:textId="031BC0AC" w:rsidR="0059267E" w:rsidRDefault="0059267E" w:rsidP="00A20EC0">
+      <w:r>
+        <w:rPr>
+          <w:noProof/>
+        </w:rPr>
+        <w:drawing>
+          <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="41C87C3B" wp14:editId="4352AFED">
+            <wp:extent cx="4523809" cy="2695238"/>
+            <wp:effectExtent l="0" t="0" r="0" b="0"/>
+            <wp:docPr id="8" name="Picture 8"/>
+            <wp:cNvGraphicFramePr>
+              <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/>
+            </wp:cNvGraphicFramePr>
+            <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+              <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                  <pic:nvPicPr>
+                    <pic:cNvPr id="1" name=""/>
+                    <pic:cNvPicPr/>
+                  </pic:nvPicPr>
+                  <pic:blipFill>
+                    <a:blip r:embed="rId14"/>
+                    <a:stretch>
+                      <a:fillRect/>
+                    </a:stretch>
+                  </pic:blipFill>
+                  <pic:spPr>
+                    <a:xfrm>
+                      <a:off x="0" y="0"/>
+                      <a:ext cx="4523809" cy="2695238"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                      <a:avLst/>
+                    </a:prstGeom>
+                  </pic:spPr>
+                </pic:pic>
+              </a:graphicData>
+            </a:graphic>
+          </wp:inline>
+        </w:drawing>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="20F388BA" w14:textId="77777777" w:rsidR="00867268" w:rsidRDefault="0059267E" w:rsidP="00A20EC0">
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#20351;&#29992;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>SQ</w:t>
+      </w:r>
+      <w:r>
+        <w:t>L Server Authentication</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#30331;&#24405;&#25968;&#25454;&#24211;</w:t>
+      </w:r>
+      <w:r w:rsidR="00A9681F">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#65292;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#36134;&#21495;&#26159;&#22561;&#22418;&#26426;</w:t>
+      </w:r>
+      <w:r w:rsidR="00A9681F">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#36816;&#32500;&#20196;&#29260;&#23545;&#24212;&#30340;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#36134;&#21495;</w:t>
+      </w:r>
+      <w:r w:rsidR="0029416A">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#65292;</w:t>
+      </w:r>
+      <w:r w:rsidR="0029416A" w:rsidRPr="00867268">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>&#23494;&#30721;&#21487;&#38543;&#20415;&#36755;&#20837;</w:t>
+      </w:r>
+      <w:r w:rsidR="00867268">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#12290;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5ABB3829" w14:textId="6B071C29" w:rsidR="0059267E" w:rsidRPr="0059267E" w:rsidRDefault="00867268" w:rsidP="00A20EC0">
+      <w:r w:rsidRPr="00867268">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>&#27880;&#24847;&#65306;</w:t>
+      </w:r>
+      <w:r w:rsidR="00A9681F" w:rsidRPr="00867268">
+        <w:rPr>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="00867268">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>&#36890;&#36807;</w:t>
+      </w:r>
+      <w:r w:rsidRPr="00867268">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>SSH</w:t>
+      </w:r>
+      <w:r w:rsidRPr="00867268">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>&#38567;&#36947;&#36830;&#25509;&#36828;&#31243;&#25968;&#25454;&#24211;&#25152;&#20351;&#29992;&#30340;&#23494;&#30721;&#19981;&#26159;&#23454;&#38469;&#30340;&#36828;&#31243;&#25968;&#25454;&#24211;&#23545;&#24212;&#36134;&#21495;&#30340;&#26377;&#25928;&#23494;&#30721;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="51B4225B" w14:textId="670F8B4A" w:rsidR="0059267E" w:rsidRDefault="0059267E" w:rsidP="00A20EC0">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#24212;&#29992;&#31243;&#24207;&#37197;&#32622;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5A5F8347" w14:textId="23451D88" w:rsidR="0059267E" w:rsidRDefault="0059267E" w:rsidP="00A20EC0">
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#37197;&#32622;&#21516;&#19978;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2D8AA873" w14:textId="56329110" w:rsidR="00A20EC0" w:rsidRDefault="00A20EC0" w:rsidP="00A20EC0">
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#26412;&#22320;&#24320;&#21457;&#36830;&#25509;&#36828;&#31243;&#25968;&#25454;&#24211;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4216390B" w14:textId="2FE90345" w:rsidR="00A20EC0" w:rsidRDefault="00A20EC0" w:rsidP="00A20EC0">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#26126;&#30830;&#38656;&#35201;&#35775;&#38382;&#30340;&#25152;&#26377;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#36828;&#31243;&#25968;&#25454;&#24211;&#30340;&#20869;&#32593;&#22320;&#22336;&#21450;&#31471;&#21475;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#65292;&#30830;&#20445;&#24212;&#29992;</w:t>
+      </w:r>
+      <w:r w:rsidR="00D47FAF">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#25152;&#37197;&#32622;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#30340;</w:t>
+      </w:r>
+      <w:r w:rsidR="00D47FAF">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#25968;&#25454;&#24211;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#36830;&#25509;</w:t>
+      </w:r>
+      <w:proofErr w:type="gramStart"/>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#20018;&#20351;&#29992;</w:t>
+      </w:r>
+      <w:proofErr w:type="gramEnd"/>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#20869;&#32593;&#22320;&#22336;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5F34F1D0" w14:textId="1F2176E5" w:rsidR="00A20EC0" w:rsidRDefault="00A20EC0" w:rsidP="00A20EC0">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#30830;&#20445;&#36828;&#31243;&#25968;&#25454;&#24211;&#36830;&#25509;&#37197;&#32622;&#30340;&#36134;&#21495;&#26159;&#32479;&#19968;&#30340;</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>y</w:t>
+      </w:r>
+      <w:r>
+        <w:t>asdev</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#65292;&#36991;&#20813;&#22312;&#21518;&#32493;&#36830;&#25509;&#36807;&#31243;&#20013;&#20986;&#29616;&#36134;&#21495;&#19982;&#36816;&#32500;&#20196;&#29260;&#19981;&#21305;&#37197;&#30340;&#24773;&#20917;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="62352CFE" w14:textId="1CDF09DE" w:rsidR="00A20EC0" w:rsidRDefault="00A20EC0" w:rsidP="00A20EC0">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#20351;&#29992;&#32479;&#19968;&#30340;</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>y</w:t>
+      </w:r>
+      <w:r>
+        <w:t>asdev</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#36134;&#21495;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#24314;&#31435;&#25152;&#26377;&#38656;&#35201;&#36830;&#25509;&#30340;&#36828;&#31243;&#25968;&#25454;&#24211;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>SSH</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#38567;&#36947;&#65292;&#26144;&#23556;&#21040;&#26412;&#22320;&#30340;&#19981;&#21516;&#31471;&#21475;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="338A5088" w14:textId="6976AD4B" w:rsidR="00D47FAF" w:rsidRPr="00D47FAF" w:rsidRDefault="00D47FAF" w:rsidP="001969CC">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#20855;&#20307;&#25805;&#20316;&#35265;</w:t>
+      </w:r>
+      <w:r w:rsidR="001969CC">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#12304;</w:t>
+      </w:r>
+      <w:hyperlink w:anchor="_&#24314;&#31435;&#26412;&#22320;&#21040;&#36828;&#31243;&#26381;&#21153;&#22120;&#30340;SSH&#38567;&#36947;" w:history="1">
+        <w:r w:rsidR="001969CC" w:rsidRPr="001969CC">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+            <w:rFonts w:hint="eastAsia"/>
+          </w:rPr>
+          <w:t>&#24314;&#31435;&#26412;&#22320;&#21040;&#36828;&#31243;&#26381;&#21153;&#22120;&#30340;</w:t>
+        </w:r>
+        <w:r w:rsidR="001969CC" w:rsidRPr="001969CC">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+            <w:rFonts w:hint="eastAsia"/>
+          </w:rPr>
+          <w:t>SSH</w:t>
+        </w:r>
+        <w:r w:rsidR="001969CC" w:rsidRPr="001969CC">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+            <w:rFonts w:hint="eastAsia"/>
+          </w:rPr>
+          <w:t>&#38567;&#36947;</w:t>
+        </w:r>
+      </w:hyperlink>
+      <w:r w:rsidR="001969CC">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#12305;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="189723E5" w14:textId="08E30AEA" w:rsidR="00A20EC0" w:rsidRDefault="00A20EC0" w:rsidP="00A20EC0">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#28155;&#21152;&#36828;&#31243;&#25968;&#25454;&#24211;&#30340;&#20869;&#32593;&#22320;&#22336;&#21040;&#26412;&#22320;&#26377;&#25928;&#30340;&#32593;&#21345;&#65292;&#24182;&#32465;&#23450;&#36825;&#20123;&#20869;&#32593;&#22320;&#22336;&#21040;&#35813;&#32593;&#21345;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="536CBE0A" w14:textId="2AD2F48A" w:rsidR="001969CC" w:rsidRDefault="001969CC" w:rsidP="001969CC">
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#26597;&#30475;&#21487;&#29992;&#30340;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>i</w:t>
+      </w:r>
+      <w:r>
+        <w:t>nterface</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="14565197" w14:textId="4E2DEB44" w:rsidR="001969CC" w:rsidRDefault="001969CC" w:rsidP="001969CC">
+      <w:r>
+        <w:t>&gt;</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="001969CC">
+        <w:t>netsh</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="001969CC">
+        <w:t xml:space="preserve"> interface show </w:t>
+      </w:r>
+      <w:proofErr w:type="gramStart"/>
+      <w:r w:rsidRPr="001969CC">
+        <w:t>interface</w:t>
+      </w:r>
+      <w:proofErr w:type="gramEnd"/>
+    </w:p>
+    <w:p w14:paraId="52A75F80" w14:textId="267C1B7C" w:rsidR="001969CC" w:rsidRDefault="001969CC" w:rsidP="001969CC">
+      <w:r>
+        <w:rPr>
+          <w:noProof/>
+        </w:rPr>
+        <w:drawing>
+          <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="00D47352" wp14:editId="52373401">
+            <wp:extent cx="6645910" cy="2160270"/>
+            <wp:effectExtent l="0" t="0" r="2540" b="0"/>
+            <wp:docPr id="2" name="Picture 2"/>
+            <wp:cNvGraphicFramePr>
+              <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/>
+            </wp:cNvGraphicFramePr>
+            <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+              <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                  <pic:nvPicPr>
+                    <pic:cNvPr id="1" name=""/>
+                    <pic:cNvPicPr/>
+                  </pic:nvPicPr>
+                  <pic:blipFill>
+                    <a:blip r:embed="rId15"/>
+                    <a:stretch>
+                      <a:fillRect/>
+                    </a:stretch>
+                  </pic:blipFill>
+                  <pic:spPr>
+                    <a:xfrm>
+                      <a:off x="0" y="0"/>
+                      <a:ext cx="6645910" cy="2160270"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                      <a:avLst/>
+                    </a:prstGeom>
+                  </pic:spPr>
+                </pic:pic>
+              </a:graphicData>
+            </a:graphic>
+          </wp:inline>
+        </w:drawing>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="02372A55" w14:textId="52D94463" w:rsidR="001969CC" w:rsidRDefault="001969CC" w:rsidP="001969CC">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#25214;&#21040;&#26631;&#35760;&#24050;&#36830;&#25509;&#30340;&#32593;&#21345;&#65292;&#33719;&#21462;&#21518;&#38754;&#30340;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>I</w:t>
+      </w:r>
+      <w:r>
+        <w:t>nterface Name</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#65292;&#21518;&#38754;&#21629;&#20196;&#38656;&#35201;&#20351;&#29992;</w:t>
+      </w:r>
+      <w:r w:rsidR="00F34457">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#65292;&#22914;&#19978;&#22270;&#20013;&#30340;&#65306;</w:t>
+      </w:r>
+      <w:r w:rsidR="00F34457">
+        <w:t>&#8221;</w:t>
+      </w:r>
+      <w:r w:rsidR="00F34457">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>W</w:t>
+      </w:r>
+      <w:r w:rsidR="00F34457">
+        <w:t xml:space="preserve">i-Fi 2&#8221; </w:t>
+      </w:r>
+      <w:r w:rsidR="00F34457">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#25110;</w:t>
+      </w:r>
+      <w:r w:rsidR="00F34457">
+        <w:t>&#8221;</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidR="00F34457">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>v</w:t>
+      </w:r>
+      <w:r w:rsidR="00F34457">
+        <w:t>Ethernet</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidR="00F34457">
+        <w:t xml:space="preserve"> (Default Switch)&#8221;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="571EF713" w14:textId="59F973BC" w:rsidR="001969CC" w:rsidRDefault="001969CC" w:rsidP="001969CC">
+      <w:pPr>
+        <w:pStyle w:val="Heading3"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:lastRenderedPageBreak/>
+        <w:t>&#21521;&#25351;&#23450;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>I</w:t>
+      </w:r>
+      <w:r>
+        <w:t>nterface</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#28155;&#21152;&#20869;&#32593;&#22320;&#22336;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="70EAAD4C" w14:textId="034A8BB7" w:rsidR="001969CC" w:rsidRDefault="001969CC" w:rsidP="001969CC">
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#20351;&#29992;&#19979;&#38754;&#21629;&#20196;&#28155;&#21152;&#20869;&#32593;&#22320;&#22336;&#21040;&#32593;&#21345;&#65288;&#20351;&#29992;&#19978;&#38754;&#24471;&#21040;&#30340;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>I</w:t>
+      </w:r>
+      <w:r>
+        <w:t>nterface Name</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#26367;&#25442;&#19979;&#38754;&#30340;</w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>[</w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>Inte</w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t xml:space="preserve">rface </w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>&#21517;&#31216;</w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>]</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#65289;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="34F75350" w14:textId="77556454" w:rsidR="001969CC" w:rsidRDefault="001969CC" w:rsidP="001969CC">
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&gt;</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>netsh</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve"> interface ipv4 add address name="</w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>[</w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>Inte</w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t xml:space="preserve">rface </w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>&#21517;&#31216;</w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>]</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">" </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>addr</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t>=172.16.230.225 mask=255.255.0.0</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0F44071F" w14:textId="180B64AD" w:rsidR="001969CC" w:rsidRDefault="001969CC" w:rsidP="001969CC">
+      <w:r>
+        <w:t>&gt;</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>netsh</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve"> interface ipv4 add address name="</w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>[Interface</w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>&#21517;&#31216;</w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>]</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">" </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>addr</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t>=172.16.199.87 mask=255.255.0.0</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3FD1E8AF" w14:textId="45482C1F" w:rsidR="001969CC" w:rsidRDefault="001969CC" w:rsidP="001969CC">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#33509;&#35201;&#21024;&#38500;&#20869;&#32593;&#22320;&#22336;&#21487;&#20351;&#29992;&#19979;&#38754;&#21629;&#20196;&#65306;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="72D852CB" w14:textId="0EF52780" w:rsidR="001969CC" w:rsidRDefault="001969CC" w:rsidP="001969CC">
+      <w:r>
+        <w:t>&gt;</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>netsh</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve"> interface ipv4 delete address name="</w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>[</w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>Inte</w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t xml:space="preserve">rface </w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>&#21517;&#31216;</w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>]</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">" </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>addr</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t>=172.16.230.225 gateway=all</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="09266AD5" w14:textId="09FFFBA1" w:rsidR="001969CC" w:rsidRDefault="001969CC" w:rsidP="001969CC">
+      <w:r>
+        <w:t>&gt;</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>netsh</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve"> interface ipv4 delete address name="</w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>[</w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>Inte</w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t xml:space="preserve">rface </w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>&#21517;&#31216;</w:t>
+      </w:r>
+      <w:r w:rsidRPr="001969CC">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>]</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">" </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>addr</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t>=172.16.199.87 gateway=all</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3C6504C3" w14:textId="56C10C42" w:rsidR="001969CC" w:rsidRPr="001969CC" w:rsidRDefault="001969CC" w:rsidP="001969CC">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:proofErr w:type="gramStart"/>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#33509;&#20869;&#32593;</w:t>
+      </w:r>
+      <w:proofErr w:type="gramEnd"/>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#22320;&#22336;&#24050;&#32463;&#23384;&#22312;&#24403;&#21069;&#32593;&#21345;&#21487;&#24573;&#30053;&#27492;&#27493;&#39588;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3E589DCF" w14:textId="4700141F" w:rsidR="00A20EC0" w:rsidRDefault="00A20EC0" w:rsidP="00A20EC0">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#24314;&#31435;&#31471;&#21475;&#20195;&#29702;&#65292;&#36716;&#21457;&#23545;&#20869;&#32593;&#22320;&#22336;&#21450;&#31471;&#21475;&#30340;&#35831;&#27714;&#21040;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>SSH</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#38567;&#36947;&#25152;&#26144;&#23556;&#30340;&#26412;&#22320;&#31471;&#21475;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="75BEDD91" w14:textId="755E2514" w:rsidR="001969CC" w:rsidRDefault="001969CC" w:rsidP="001969CC">
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#20351;&#29992;</w:t>
+      </w:r>
+      <w:r w:rsidR="00F34457">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#19979;&#38754;&#21629;&#20196;&#24314;&#31435;&#20869;&#32593;&#22320;&#22336;&#21450;&#31471;&#21475;&#30340;&#20195;&#29702;&#65292;&#37325;&#23450;&#21521;&#21040;&#26412;&#22320;</w:t>
+      </w:r>
+      <w:r w:rsidR="00F34457">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>S</w:t>
+      </w:r>
+      <w:r w:rsidR="00F34457">
+        <w:t>SH</w:t>
+      </w:r>
+      <w:r w:rsidR="00F34457">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#38567;&#36947;&#31471;&#21475;&#12290;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="348451C8" w14:textId="720E90A3" w:rsidR="00F34457" w:rsidRDefault="00F34457" w:rsidP="00F34457">
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&gt;</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>netsh</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve"> interface </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>portproxy</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve"> add v4tov4 </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>listenport</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve">=20 </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>connectaddress</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve">=127.0.0.1 </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>connectport</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve">=5433 </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>listenaddress</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t>=172.16.230.225</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6EF5F451" w14:textId="37C15652" w:rsidR="00F34457" w:rsidRDefault="00F34457" w:rsidP="00F34457">
+      <w:r>
+        <w:t>&gt;</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>netsh</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve"> interface </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>portproxy</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve"> add v4tov4 </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>listenport</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve">=20 </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>connectaddress</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve">=127.0.0.1 </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>connectport</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve">=10433 </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>listenaddress</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t>=172.16.199.87</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5711BB49" w14:textId="77777777" w:rsidR="00F34457" w:rsidRDefault="00F34457" w:rsidP="001969CC">
+      <w:pPr>
+        <w:rPr>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="00F34457">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>&#27880;&#24847;&#65306;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1016556F" w14:textId="43D82BB6" w:rsidR="00F34457" w:rsidRPr="00F34457" w:rsidRDefault="001969CC" w:rsidP="00F34457">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="3"/>
+        </w:numPr>
+        <w:rPr>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+      </w:pPr>
+      <w:proofErr w:type="gramStart"/>
+      <w:r w:rsidRPr="00F34457">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>&#35831;&#30830;&#20445;</w:t>
+      </w:r>
+      <w:proofErr w:type="gramEnd"/>
+      <w:r w:rsidRPr="00F34457">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>&#20869;&#32593;&#22320;&#22336;&#23384;&#22312;&#24182;&#24050;&#32463;&#28155;&#21152;&#65292;&#24182;&#19988;&#23545;&#24212;&#30340;</w:t>
+      </w:r>
+      <w:r w:rsidRPr="00F34457">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>SSH</w:t>
+      </w:r>
+      <w:r w:rsidRPr="00F34457">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>&#38567;&#36947;&#24050;&#32463;&#24314;&#31435;&#24182;&#21487;&#27491;&#24120;&#35775;&#38382;</w:t>
+      </w:r>
+      <w:r w:rsidR="00F34457" w:rsidRPr="00F34457">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>&#12290;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6910C26D" w14:textId="6B17EE1A" w:rsidR="001969CC" w:rsidRDefault="00F34457" w:rsidP="00F34457">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="3"/>
+        </w:numPr>
+      </w:pPr>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="00F34457">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>l</w:t>
+      </w:r>
+      <w:r w:rsidRPr="00F34457">
+        <w:rPr>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>istenport</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="00F34457">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>&#30340;&#20540;&#21462;&#20915;&#20110;&#36828;&#31243;&#25968;&#25454;&#24211;&#30340;&#31471;&#21475;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="32B2C848" w14:textId="2094B462" w:rsidR="00F34457" w:rsidRDefault="00F34457" w:rsidP="00F34457">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#22914;&#26524;&#30830;&#35748;</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>SSH</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#38567;&#36947;&#31471;&#21475;&#21487;</w:t>
+      </w:r>
+      <w:proofErr w:type="gramStart"/>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#27491;&#24120;&#35775;&#38382;&#20294;</w:t>
+      </w:r>
+      <w:proofErr w:type="gramEnd"/>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#20869;&#32593;&#22320;&#22336;&#21450;&#31471;&#21475;&#26080;&#27861;&#35775;&#38382;&#65292;&#35831;&#23581;&#35797;&#20351;&#29992;&#19979;&#38754;&#21629;&#20196;&#21024;&#38500;&#21518;&#20877;&#37325;&#24314;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="40364645" w14:textId="6AED751D" w:rsidR="00F34457" w:rsidRDefault="00F34457" w:rsidP="00F34457">
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&gt;</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>netsh</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve"> interface </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>portproxy</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve"> delete v4tov4 </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>listenport</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve">=20 </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>listenaddress</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t>=172.16.230.225</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="78892F10" w14:textId="48D5D347" w:rsidR="00F34457" w:rsidRPr="001969CC" w:rsidRDefault="00F34457" w:rsidP="00F34457">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:t>&gt;</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>netsh</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve"> interface </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>portproxy</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve"> delete v4tov4 </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>listenport</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t xml:space="preserve">=20 </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>listenaddress</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:t>=172.16.199.87</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2820A1E3" w14:textId="3EF6B9F8" w:rsidR="00A20EC0" w:rsidRDefault="00D47FAF" w:rsidP="00A20EC0">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#21551;&#21160;&#35843;&#24230;&#31995;&#32479;&#24212;&#29992;&#31243;&#24207;&#24320;&#21457;&#26412;&#22320;&#36816;&#34892;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1A492D3F" w14:textId="5AE94E78" w:rsidR="00F34457" w:rsidRPr="00F34457" w:rsidRDefault="00F34457" w:rsidP="00F34457">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#30830;&#20445;</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r>
+        <w:t>web.config</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+        <w:t>&#37324;&#25968;&#25454;&#24211;&#36830;&#25509;&#23383;&#31526;&#20018;&#37324;&#20351;&#29992;&#20869;&#32593;&#22320;&#22336;&#12290;</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="69973AFA" w14:textId="507466B0" w:rsidR="00A20EC0" w:rsidRDefault="00F34457">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="00F34457">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>&#27880;&#24847;&#65306;&#30446;&#21069;&#21457;&#29616;&#30340;&#38382;&#39064;&#26159;&#38656;&#35201;&#21435;&#25481;</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="00F34457">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>w</w:t>
+      </w:r>
+      <w:r w:rsidRPr="00F34457">
+        <w:rPr>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>eb.config</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="00F34457">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>&#37324;&#25968;&#25454;&#24211;&#36830;&#25509;&#23383;&#31526;&#20018;&#37324;&#30340;</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="00F34457">
+        <w:rPr>
+          <w:rFonts w:ascii="Cascadia Mono" w:hAnsi="Cascadia Mono" w:cs="Cascadia Mono"/>
+          <w:color w:val="008000"/>
+          <w:sz w:val="19"/>
+          <w:szCs w:val="19"/>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>MultipleActiveResultSets</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="00F34457">
+        <w:rPr>
+          <w:rFonts w:ascii="Cascadia Mono" w:hAnsi="Cascadia Mono" w:cs="Cascadia Mono"/>
+          <w:color w:val="008000"/>
+          <w:sz w:val="19"/>
+          <w:szCs w:val="19"/>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>=True</w:t>
+      </w:r>
+      <w:r w:rsidRPr="00F34457">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>&#65292;&#19981;&#28982;&#31243;&#24207;&#21551;&#21160;&#21019;&#24314;</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart"/>
+      <w:r w:rsidRPr="00F34457">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>L</w:t>
+      </w:r>
+      <w:r w:rsidRPr="00F34457">
+        <w:rPr>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>ogisticsDbContext</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd"/>
+      <w:r w:rsidRPr="00F34457">
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia"/>
+          <w:highlight w:val="yellow"/>
+        </w:rPr>
+        <w:t>&#26102;&#20250;&#25253;&#38169;&#12290;&#19981;&#26126;&#30830;&#21024;&#38500;&#27492;&#37197;&#32622;&#23545;&#21518;&#32493;&#21738;&#37324;&#19994;&#21153;&#23384;&#22312;&#24433;&#21709;&#12290;</w:t>
+      </w:r>
+    </w:p>
+    <w:sectPr w:rsidR="00A20EC0" w:rsidSect="002E1C28">
+      <w:pgSz w:w="11906" w:h="16838" w:code="9"/>
+      <w:pgMar w:top="567" w:right="720" w:bottom="142" w:left="720" w:header="720" w:footer="720" w:gutter="0"/>
+      <w:cols w:space="720"/>
+      <w:docGrid w:linePitch="360"/>
+    </w:sectPr>
+  </w:body>
+</w:document>

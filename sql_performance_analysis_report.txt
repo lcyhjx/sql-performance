@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "d:\Lakin\project\company-ai\tools\analyze_sql_performance.py", line 56, in analyze_sql_performance
+    print(f"Line {i+1}: {line.strip()[:200]}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'gbk' codec can't encode character '\ufeff' in position 8: illegal multibyte sequence
+¿ªÊ¼·ÖÎö: sql with performance issues.csv
+================================================================================
+´íÎó: 'gbk' codec can't encode character '\ufeff' in position 8: illegal multibyte sequence
